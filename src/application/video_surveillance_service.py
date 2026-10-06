@@ -25,9 +25,12 @@ from src.domain.entities import (
     TrackRecord,
     BoundingBox,
     ThreatAssessmentResult,
+    RestrictedZone,
+    ObservableEvent,
 )
 from src.infrastructure.database.repositories import AnalysisRepository
 from src.infrastructure.services.demo_manager import DemoManager
+from src.infrastructure.services.spatial_zone_evaluator import SpatialZoneEvaluator
 from src.core.exceptions import ValidationError, AnalysisProcessingError
 
 logger = logging.getLogger("SurveillanceSystem")
@@ -50,6 +53,7 @@ class VideoSurveillanceService(IVideoSurveillanceService):
         explainability_service: AbstractExplainabilityService,
         analysis_repository: AnalysisRepository,
         demo_manager: DemoManager,
+        spatial_zone_evaluator: Optional[SpatialZoneEvaluator] = None,
     ):
         self.video_processing = video_processing_service
         self.detection_service = detection_service
@@ -58,6 +62,7 @@ class VideoSurveillanceService(IVideoSurveillanceService):
         self.explainability_service = explainability_service
         self.analysis_repo = analysis_repository
         self.demo_manager = demo_manager
+        self.spatial_zone_evaluator = spatial_zone_evaluator or SpatialZoneEvaluator()
 
     def _draw_track_annotations(
         self, image_rgb: np.ndarray, detections: List[DetectionResult], tracks_in_frame: Dict[str, int]
@@ -214,16 +219,57 @@ class VideoSurveillanceService(IVideoSurveillanceService):
         zone_flag = request.zone_violation_flag
         unauth_signal = getattr(request, "unauthorized_access_signal", False)
 
-        if request.source_type.upper() == "DEMO" and request.scenario_name:
-            scen_info = self.demo_manager.get_scenario(request.scenario_name)
+        # 7. Dynamic Spatial Zone Trajectory Evaluation
+        active_zones: List[RestrictedZone] = []
+        if getattr(request, "zones", None):
+            active_zones = [z for z in request.zones if z and z.is_active and z.platform.upper() == request.platform.upper()]
+
+        if not active_zones:
+            if request.platform.upper() == "DRONE":
+                active_zones = [
+                    RestrictedZone(
+                        zone_id="Z1_DRONE",
+                        name="Drone Restricted Perimeter Zone",
+                        platform="DRONE",
+                        polygon_points=[(0.3, 0.2), (0.9, 0.2), (0.9, 0.8), (0.3, 0.8)],
+                        is_active=True
+                    )
+                ]
+            else:
+                active_zones = [
+                    RestrictedZone(
+                        zone_id="Z1_CCTV",
+                        name="CCTV Secure Gate Zone",
+                        platform="CCTV",
+                        polygon_points=[(0.2, 0.2), (0.8, 0.2), (0.8, 0.8), (0.2, 0.8)],
+                        is_active=True
+                    )
+                ]
+
+        dynamic_spatial_events: List[ObservableEvent] = []
+        for tr in tracks:
+            tr_events = self.spatial_zone_evaluator.evaluate_track_spatial_events(
+                tr, active_zones, width=metadata.width, height=metadata.height
+            )
+            dynamic_spatial_events.extend(tr_events)
+
+        computed_dynamic_zone_breach = any(
+            e.curr_inside or e.event_type in ["ZONE_ENTRY", "ZONE_TRANSIT", "STATIONARY_OBJECT_IN_ZONE", "BOUNDARY_CROSSING"]
+            for e in dynamic_spatial_events
+        )
+
+        effective_zone_flag = computed_dynamic_zone_breach or zone_flag
+
+        if not effective_zone_flag and request.source_type.upper() == "DEMO" and request.scenario_name:
+            scen_info = self.demo_manager.get_video_scenario(request.scenario_name) or self.demo_manager.get_scenario(request.scenario_name)
             if scen_info:
-                if not zone_flag:
-                    zone_flag = scen_info.get("zone_violation_flag", False)
+                if not effective_zone_flag:
+                    effective_zone_flag = scen_info.get("zone_violation_flag", False)
                 if not unauth_signal:
                     unauth_signal = scen_info.get("unauthorized_access_signal", False)
 
         threat_eval_metadata = {
-            "zone_violation_flag": zone_flag,
+            "zone_violation_flag": effective_zone_flag,
             "unauthorized_access_signal": unauth_signal,
             "media_type": "VIDEO",
             "platform": request.platform,
@@ -296,6 +342,7 @@ class VideoSurveillanceService(IVideoSurveillanceService):
             total_detections=total_detections,
             class_counts=class_counts,
             threat_assessment=threat_assessment,
+            events=dynamic_spatial_events,
             representative_frame_bytes=representative_frame_bytes_list,
             annotated_video_path=video_path,
             processing_time_ms=processing_time_ms,

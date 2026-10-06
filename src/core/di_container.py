@@ -88,6 +88,12 @@ class DIContainer:
             max_missed_frames=int(config_service.get("video.tracker_max_missed_frames", ConfigurationService.TRACKER_MAX_MISSED_FRAMES)),
             movement_pixel_threshold=float(config_service.get("video.movement_pixel_threshold", ConfigurationService.MOVEMENT_PIXEL_THRESHOLD))
         )
+        from src.infrastructure.database.repositories import AnalystReviewRepository
+        from src.infrastructure.services.spatial_zone_evaluator import SpatialZoneEvaluator
+        from src.application.contextual_assessment_service import ContextualAssessmentService
+        from src.application.analyst_review_service import AnalystReviewService
+
+        spatial_zone_evaluator = SpatialZoneEvaluator()
         video_surveillance_service = VideoSurveillanceService(
             video_processing_service=video_proc_service,
             detection_service=yolo_service,
@@ -95,17 +101,11 @@ class DIContainer:
             threat_scoring_service=threat_service,
             explainability_service=explainability_service,
             analysis_repository=analysis_repo,
-            demo_manager=demo_manager
+            demo_manager=demo_manager,
+            spatial_zone_evaluator=spatial_zone_evaluator
         )
 
-        # 6. Feature 005 Services & Repositories
-        from src.infrastructure.database.repositories import AnalystReviewRepository
-        from src.infrastructure.services.spatial_zone_evaluator import SpatialZoneEvaluator
-        from src.application.contextual_assessment_service import ContextualAssessmentService
-        from src.application.analyst_review_service import AnalystReviewService
-
         analyst_review_repo = AnalystReviewRepository(db_service)
-        spatial_zone_evaluator = SpatialZoneEvaluator()
         contextual_assessment_service = ContextualAssessmentService(zone_evaluator=spatial_zone_evaluator)
         default_analyst_id = str(config_service.get("analyst.default_id", ConfigurationService.DEFAULT_ANALYST_ID))
         analyst_review_service = AnalystReviewService(review_repository=analyst_review_repo, default_analyst_id=default_analyst_id)

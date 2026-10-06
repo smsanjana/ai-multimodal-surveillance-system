@@ -60,3 +60,94 @@ class SpatialZoneEvaluator(ISpatialZoneEvaluator):
         pts_array = np.array(pixel_polygon, dtype=np.int32)
         dist = cv2.pointPolygonTest(pts_array, (float(px), float(py)), measureDist=False)
         return dist >= 0
+
+    def evaluate_track_spatial_events(
+        self,
+        track: 'TrackRecord',
+        zones: List[RestrictedZone],
+        width: int = 1280,
+        height: int = 720
+    ) -> List['ObservableEvent']:
+        """
+        Evaluates a track's trajectory points across active normalized restricted zones [0.0, 1.0],
+        detecting state transitions (NO_EVENT, ZONE_ENTRY, ZONE_EXIT, BOUNDARY_CROSSING, etc.)
+        and generating granular evidence records.
+        """
+        from src.domain.entities import ObservableEvent
+        events: List[ObservableEvent] = []
+        if not track or not track.trajectory_points or not zones:
+            return events
+
+        active_zones = [z for z in zones if z and z.is_active and z.polygon_points and len(z.polygon_points) >= 3]
+        if not active_zones:
+            return events
+
+        for zone in active_zones:
+            prev_inside = False
+            prev_pt = None
+
+            for i, pt in enumerate(track.trajectory_points):
+                norm_cx = pt.x / float(width) if pt.x > 1.0 else pt.x
+                norm_cy = pt.y / float(height) if pt.y > 1.0 else pt.y
+
+                curr_inside = self.is_centroid_in_zone((norm_cx, norm_cy), zone, width=width, height=height)
+
+                if i == 0:
+                    prev_inside = curr_inside
+                    prev_pt = pt
+                    if curr_inside:
+                        event_type = "STATIONARY_OBJECT_IN_ZONE" if track.movement_state.upper() == "STATIONARY" else "ZONE_TRANSIT"
+                        events.append(ObservableEvent(
+                            track_id=track.track_id,
+                            class_name=track.class_name,
+                            event_type=event_type,
+                            timestamp_sec=pt.timestamp_sec,
+                            frame_index=pt.frame_index,
+                            zone_id=zone.zone_id,
+                            prev_centroid=(round(norm_cx, 4), round(norm_cy, 4)),
+                            curr_centroid=(round(norm_cx, 4), round(norm_cy, 4)),
+                            prev_inside=curr_inside,
+                            curr_inside=curr_inside,
+                            is_dynamic_evidence=True,
+                            description=f"Track #{track.track_id} ({track.class_name}) initial centroid observed inside restricted zone '{zone.name}' (ID: {zone.zone_id}).",
+                            confidence_score=track.avg_confidence
+                        ))
+                    continue
+
+                prev_norm_x = prev_pt.x / float(width) if prev_pt.x > 1.0 else prev_pt.x
+                prev_norm_y = prev_pt.y / float(height) if prev_pt.y > 1.0 else prev_pt.y
+
+                event_type = None
+                desc = ""
+
+                if not prev_inside and curr_inside:
+                    event_type = "ZONE_ENTRY"
+                    desc = f"Track #{track.track_id} ({track.class_name}) entered restricted zone '{zone.name}' (ID: {zone.zone_id}) crossing boundary at t={pt.timestamp_sec:.2f}s."
+                elif prev_inside and not curr_inside:
+                    event_type = "ZONE_EXIT"
+                    desc = f"Track #{track.track_id} ({track.class_name}) exited restricted zone '{zone.name}' (ID: {zone.zone_id}) crossing boundary at t={pt.timestamp_sec:.2f}s."
+                elif prev_inside and curr_inside:
+                    event_type = "STATIONARY_OBJECT_IN_ZONE" if track.movement_state.upper() == "STATIONARY" else "ZONE_TRANSIT"
+                    desc = f"Track #{track.track_id} ({track.class_name}) continuing transit inside restricted zone '{zone.name}' (ID: {zone.zone_id})."
+
+                if event_type:
+                    events.append(ObservableEvent(
+                        track_id=track.track_id,
+                        class_name=track.class_name,
+                        event_type=event_type,
+                        timestamp_sec=pt.timestamp_sec,
+                        frame_index=pt.frame_index,
+                        zone_id=zone.zone_id,
+                        prev_centroid=(round(prev_norm_x, 4), round(prev_norm_y, 4)),
+                        curr_centroid=(round(norm_cx, 4), round(norm_cy, 4)),
+                        prev_inside=prev_inside,
+                        curr_inside=curr_inside,
+                        is_dynamic_evidence=True,
+                        description=desc,
+                        confidence_score=track.avg_confidence
+                    ))
+
+                prev_inside = curr_inside
+                prev_pt = pt
+
+        return events

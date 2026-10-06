@@ -177,6 +177,7 @@ class VideoAnalysisRequest:
     target_sample_fps: float = 5.0
     zone_violation_flag: bool = False
     unauthorized_access_signal: bool = False
+    zones: Optional[List['RestrictedZone']] = None
 
 
 @dataclass
@@ -191,6 +192,7 @@ class VideoAnalysisResult:
     total_detections: int = 0
     class_counts: Dict[str, int] = field(default_factory=dict)
     threat_assessment: ThreatAssessmentResult = field(default_factory=ThreatAssessmentResult)
+    events: List['ObservableEvent'] = field(default_factory=list)
     representative_frame_bytes: List[bytes] = field(default_factory=list)
     annotated_video_path: Optional[str] = None
     processing_time_ms: float = 0.0
@@ -214,8 +216,15 @@ class ObservableEvent:
     event_id: str = field(default_factory=lambda: str(uuid.uuid4()))
     track_id: int = 0
     class_name: str = "Unknown"
-    event_type: str = "ROUTINE_TRANSIT"  # "ROUTINE_TRANSIT", "PERIMETER_APPROACH", "ZONE_ENTRY", "ZONE_TRANSIT", "STATIONARY_OBJECT_IN_ZONE"
+    event_type: str = "ROUTINE_TRANSIT"  # "NO_EVENT", "ZONE_ENTRY", "ZONE_EXIT", "BOUNDARY_CROSSING", "ZONE_TRANSIT", "STATIONARY_OBJECT_IN_ZONE"
     timestamp_sec: float = 0.0
+    frame_index: Optional[int] = None
+    zone_id: Optional[str] = None
+    prev_centroid: Optional[Tuple[float, float]] = None
+    curr_centroid: Optional[Tuple[float, float]] = None
+    prev_inside: bool = False
+    curr_inside: bool = False
+    is_dynamic_evidence: bool = True
     description: str = ""
     confidence_score: float = 0.0
     is_uncertain: bool = False
