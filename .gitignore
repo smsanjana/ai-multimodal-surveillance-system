@@ -26,6 +26,7 @@ Thumbs.db
 data/surveillance.db
 data/temp/*
 !data/temp/.gitkeep
+data/artifacts/*.json
 
 # Ultralytics Training Run Artifacts
 runs/
