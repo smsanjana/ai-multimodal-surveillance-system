@@ -1,0 +1,2523 @@
+{
+  "analysis_id": "d2b50ed2-3b36-40d8-bc33-1e509b29f431",
+  "tracks": [
+    {
+      "track_id": 1,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 0,
+      "last_frame": 0,
+      "first_timestamp": 0.0,
+      "last_timestamp": 0.0,
+      "detection_count": 1,
+      "avg_confidence": 0.388,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 671.65,
+          "y": 301.28,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        }
+      ]
+    },
+    {
+      "track_id": 2,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 6,
+      "last_frame": 12,
+      "first_timestamp": 0.2,
+      "last_timestamp": 0.4,
+      "detection_count": 2,
+      "avg_confidence": 0.5012,
+      "movement_state": "MOVING",
+      "pixel_displacement": 64.0,
+      "trajectory_direction": "South-East",
+      "trajectory_points": [
+        {
+          "x": 641.69,
+          "y": 369.63,
+          "frame_index": 6,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 682.27,
+          "y": 419.12,
+          "frame_index": 12,
+          "timestamp_sec": 0.4
+        }
+      ]
+    },
+    {
+      "track_id": 3,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 6,
+      "last_frame": 6,
+      "first_timestamp": 0.2,
+      "last_timestamp": 0.2,
+      "detection_count": 1,
+      "avg_confidence": 0.3968,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 641.35,
+          "y": 369.82,
+          "frame_index": 6,
+          "timestamp_sec": 0.2
+        }
+      ]
+    },
+    {
+      "track_id": 4,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 18,
+      "last_frame": 18,
+      "first_timestamp": 0.6,
+      "last_timestamp": 0.6,
+      "detection_count": 1,
+      "avg_confidence": 0.6509,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 753.57,
+          "y": 550.65,
+          "frame_index": 18,
+          "timestamp_sec": 0.6
+        }
+      ]
+    },
+    {
+      "track_id": 5,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 24,
+      "last_frame": 30,
+      "first_timestamp": 0.801,
+      "last_timestamp": 1.001,
+      "detection_count": 2,
+      "avg_confidence": 0.5606,
+      "movement_state": "MOVING",
+      "pixel_displacement": 56.05,
+      "trajectory_direction": "West",
+      "trajectory_points": [
+        {
+          "x": 763.02,
+          "y": 633.41,
+          "frame_index": 24,
+          "timestamp_sec": 0.801
+        },
+        {
+          "x": 706.97,
+          "y": 633.84,
+          "frame_index": 30,
+          "timestamp_sec": 1.001
+        }
+      ]
+    },
+    {
+      "track_id": 6,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 36,
+      "last_frame": 36,
+      "first_timestamp": 1.201,
+      "last_timestamp": 1.201,
+      "detection_count": 1,
+      "avg_confidence": 0.281,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 654.61,
+          "y": 433.12,
+          "frame_index": 36,
+          "timestamp_sec": 1.201
+        }
+      ]
+    },
+    {
+      "track_id": 7,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 42,
+      "last_frame": 42,
+      "first_timestamp": 1.401,
+      "last_timestamp": 1.401,
+      "detection_count": 1,
+      "avg_confidence": 0.529,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 688.16,
+          "y": 254.9,
+          "frame_index": 42,
+          "timestamp_sec": 1.401
+        }
+      ]
+    },
+    {
+      "track_id": 8,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 42,
+      "last_frame": 42,
+      "first_timestamp": 1.401,
+      "last_timestamp": 1.401,
+      "detection_count": 1,
+      "avg_confidence": 0.2895,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 623.61,
+          "y": 283.32,
+          "frame_index": 42,
+          "timestamp_sec": 1.401
+        }
+      ]
+    },
+    {
+      "track_id": 9,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 54,
+      "last_frame": 54,
+      "first_timestamp": 1.801,
+      "last_timestamp": 1.801,
+      "detection_count": 1,
+      "avg_confidence": 0.4549,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 756.56,
+          "y": 364.11,
+          "frame_index": 54,
+          "timestamp_sec": 1.801
+        }
+      ]
+    },
+    {
+      "track_id": 10,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 78,
+      "last_frame": 78,
+      "first_timestamp": 2.602,
+      "last_timestamp": 2.602,
+      "detection_count": 1,
+      "avg_confidence": 0.3864,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 688.74,
+          "y": 344.76,
+          "frame_index": 78,
+          "timestamp_sec": 2.602
+        }
+      ]
+    },
+    {
+      "track_id": 11,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 96,
+      "last_frame": 102,
+      "first_timestamp": 3.202,
+      "last_timestamp": 3.402,
+      "detection_count": 2,
+      "avg_confidence": 0.4839,
+      "movement_state": "MOVING",
+      "pixel_displacement": 54.03,
+      "trajectory_direction": "South-West",
+      "trajectory_points": [
+        {
+          "x": 595.94,
+          "y": 264.15,
+          "frame_index": 96,
+          "timestamp_sec": 3.202
+        },
+        {
+          "x": 555.09,
+          "y": 299.51,
+          "frame_index": 102,
+          "timestamp_sec": 3.402
+        }
+      ]
+    },
+    {
+      "track_id": 12,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 150,
+      "last_frame": 150,
+      "first_timestamp": 5.003,
+      "last_timestamp": 5.003,
+      "detection_count": 1,
+      "avg_confidence": 0.327,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 63.95,
+          "y": 347.22,
+          "frame_index": 150,
+          "timestamp_sec": 5.003
+        }
+      ]
+    },
+    {
+      "track_id": 13,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 162,
+      "last_frame": 174,
+      "first_timestamp": 5.403,
+      "last_timestamp": 5.804,
+      "detection_count": 3,
+      "avg_confidence": 0.4481,
+      "movement_state": "MOVING",
+      "pixel_displacement": 33.71,
+      "trajectory_direction": "South",
+      "trajectory_points": [
+        {
+          "x": 1111.42,
+          "y": 567.18,
+          "frame_index": 162,
+          "timestamp_sec": 5.403
+        },
+        {
+          "x": 1130.03,
+          "y": 590.42,
+          "frame_index": 168,
+          "timestamp_sec": 5.604
+        },
+        {
+          "x": 1121.34,
+          "y": 599.4,
+          "frame_index": 174,
+          "timestamp_sec": 5.804
+        }
+      ]
+    },
+    {
+      "track_id": 14,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 186,
+      "last_frame": 198,
+      "first_timestamp": 6.204,
+      "last_timestamp": 6.604,
+      "detection_count": 2,
+      "avg_confidence": 0.2768,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 8.23,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 633.91,
+          "y": 404.17,
+          "frame_index": 186,
+          "timestamp_sec": 6.204
+        },
+        {
+          "x": 641.66,
+          "y": 401.39,
+          "frame_index": 198,
+          "timestamp_sec": 6.604
+        }
+      ]
+    },
+    {
+      "track_id": 15,
+      "class_id": 1,
+      "class_name": "Missile",
+      "first_frame": 228,
+      "last_frame": 234,
+      "first_timestamp": 7.605,
+      "last_timestamp": 7.805,
+      "detection_count": 2,
+      "avg_confidence": 0.4444,
+      "movement_state": "MOVING",
+      "pixel_displacement": 161.86,
+      "trajectory_direction": "West",
+      "trajectory_points": [
+        {
+          "x": 927.63,
+          "y": 479.85,
+          "frame_index": 228,
+          "timestamp_sec": 7.605
+        },
+        {
+          "x": 776.55,
+          "y": 421.78,
+          "frame_index": 234,
+          "timestamp_sec": 7.805
+        }
+      ]
+    },
+    {
+      "track_id": 16,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 246,
+      "last_frame": 246,
+      "first_timestamp": 8.205,
+      "last_timestamp": 8.205,
+      "detection_count": 1,
+      "avg_confidence": 0.3413,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 211.42,
+          "y": 276.61,
+          "frame_index": 246,
+          "timestamp_sec": 8.205
+        }
+      ]
+    },
+    {
+      "track_id": 17,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 330,
+      "last_frame": 330,
+      "first_timestamp": 11.007,
+      "last_timestamp": 11.007,
+      "detection_count": 1,
+      "avg_confidence": 0.5119,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 174.19,
+          "y": 361.5,
+          "frame_index": 330,
+          "timestamp_sec": 11.007
+        }
+      ]
+    },
+    {
+      "track_id": 18,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 342,
+      "last_frame": 354,
+      "first_timestamp": 11.407,
+      "last_timestamp": 11.807,
+      "detection_count": 3,
+      "avg_confidence": 0.4456,
+      "movement_state": "MOVING",
+      "pixel_displacement": 64.24,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 362.5,
+          "y": 354.11,
+          "frame_index": 342,
+          "timestamp_sec": 11.407
+        },
+        {
+          "x": 405.24,
+          "y": 341.35,
+          "frame_index": 348,
+          "timestamp_sec": 11.607
+        },
+        {
+          "x": 426.54,
+          "y": 349.04,
+          "frame_index": 354,
+          "timestamp_sec": 11.807
+        }
+      ]
+    },
+    {
+      "track_id": 19,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 366,
+      "last_frame": 372,
+      "first_timestamp": 12.208,
+      "last_timestamp": 12.408,
+      "detection_count": 2,
+      "avg_confidence": 0.3224,
+      "movement_state": "MOVING",
+      "pixel_displacement": 31.91,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 66.51,
+          "y": 225.03,
+          "frame_index": 366,
+          "timestamp_sec": 12.208
+        },
+        {
+          "x": 98.0,
+          "y": 219.85,
+          "frame_index": 372,
+          "timestamp_sec": 12.408
+        }
+      ]
+    },
+    {
+      "track_id": 20,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 396,
+      "last_frame": 396,
+      "first_timestamp": 13.208,
+      "last_timestamp": 13.208,
+      "detection_count": 1,
+      "avg_confidence": 0.7105,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 739.73,
+          "y": 401.53,
+          "frame_index": 396,
+          "timestamp_sec": 13.208
+        }
+      ]
+    },
+    {
+      "track_id": 21,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 402,
+      "last_frame": 402,
+      "first_timestamp": 13.408,
+      "last_timestamp": 13.408,
+      "detection_count": 1,
+      "avg_confidence": 0.2636,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 91.57,
+          "y": 664.33,
+          "frame_index": 402,
+          "timestamp_sec": 13.408
+        }
+      ]
+    },
+    {
+      "track_id": 22,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 402,
+      "last_frame": 402,
+      "first_timestamp": 13.408,
+      "last_timestamp": 13.408,
+      "detection_count": 1,
+      "avg_confidence": 0.8501,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 794.6,
+          "y": 375.21,
+          "frame_index": 402,
+          "timestamp_sec": 13.408
+        }
+      ]
+    },
+    {
+      "track_id": 23,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 408,
+      "last_frame": 408,
+      "first_timestamp": 13.609,
+      "last_timestamp": 13.609,
+      "detection_count": 1,
+      "avg_confidence": 0.7307,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 837.39,
+          "y": 307.54,
+          "frame_index": 408,
+          "timestamp_sec": 13.609
+        }
+      ]
+    },
+    {
+      "track_id": 24,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 414,
+      "last_frame": 414,
+      "first_timestamp": 13.809,
+      "last_timestamp": 13.809,
+      "detection_count": 1,
+      "avg_confidence": 0.6993,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 832.73,
+          "y": 221.58,
+          "frame_index": 414,
+          "timestamp_sec": 13.809
+        }
+      ]
+    },
+    {
+      "track_id": 25,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 414,
+      "last_frame": 414,
+      "first_timestamp": 13.809,
+      "last_timestamp": 13.809,
+      "detection_count": 1,
+      "avg_confidence": 0.2798,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 790.21,
+          "y": 299.77,
+          "frame_index": 414,
+          "timestamp_sec": 13.809
+        }
+      ]
+    },
+    {
+      "track_id": 26,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 486,
+      "last_frame": 486,
+      "first_timestamp": 16.21,
+      "last_timestamp": 16.21,
+      "detection_count": 1,
+      "avg_confidence": 0.3565,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 968.43,
+          "y": 520.07,
+          "frame_index": 486,
+          "timestamp_sec": 16.21
+        }
+      ]
+    },
+    {
+      "track_id": 27,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 528,
+      "last_frame": 528,
+      "first_timestamp": 17.611,
+      "last_timestamp": 17.611,
+      "detection_count": 1,
+      "avg_confidence": 0.2641,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 14.43,
+          "y": 531.11,
+          "frame_index": 528,
+          "timestamp_sec": 17.611
+        }
+      ]
+    },
+    {
+      "track_id": 28,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 558,
+      "last_frame": 570,
+      "first_timestamp": 18.612,
+      "last_timestamp": 19.012,
+      "detection_count": 2,
+      "avg_confidence": 0.4645,
+      "movement_state": "MOVING",
+      "pixel_displacement": 49.84,
+      "trajectory_direction": "South-West",
+      "trajectory_points": [
+        {
+          "x": 141.53,
+          "y": 519.45,
+          "frame_index": 558,
+          "timestamp_sec": 18.612
+        },
+        {
+          "x": 97.29,
+          "y": 542.41,
+          "frame_index": 570,
+          "timestamp_sec": 19.012
+        }
+      ]
+    },
+    {
+      "track_id": 29,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 690,
+      "last_frame": 690,
+      "first_timestamp": 23.015,
+      "last_timestamp": 23.015,
+      "detection_count": 1,
+      "avg_confidence": 0.5777,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 736.02,
+          "y": 356.9,
+          "frame_index": 690,
+          "timestamp_sec": 23.015
+        }
+      ]
+    },
+    {
+      "track_id": 30,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 690,
+      "last_frame": 690,
+      "first_timestamp": 23.015,
+      "last_timestamp": 23.015,
+      "detection_count": 1,
+      "avg_confidence": 0.3089,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 882.79,
+          "y": 347.44,
+          "frame_index": 690,
+          "timestamp_sec": 23.015
+        }
+      ]
+    },
+    {
+      "track_id": 31,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 690,
+      "last_frame": 690,
+      "first_timestamp": 23.015,
+      "last_timestamp": 23.015,
+      "detection_count": 1,
+      "avg_confidence": 0.6862,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 888.47,
+          "y": 365.84,
+          "frame_index": 690,
+          "timestamp_sec": 23.015
+        }
+      ]
+    },
+    {
+      "track_id": 32,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 696,
+      "last_frame": 696,
+      "first_timestamp": 23.215,
+      "last_timestamp": 23.215,
+      "detection_count": 1,
+      "avg_confidence": 0.2893,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 853.59,
+          "y": 422.16,
+          "frame_index": 696,
+          "timestamp_sec": 23.215
+        }
+      ]
+    },
+    {
+      "track_id": 33,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 702,
+      "last_frame": 708,
+      "first_timestamp": 23.415,
+      "last_timestamp": 23.615,
+      "detection_count": 2,
+      "avg_confidence": 0.4785,
+      "movement_state": "MOVING",
+      "pixel_displacement": 25.3,
+      "trajectory_direction": "South",
+      "trajectory_points": [
+        {
+          "x": 809.29,
+          "y": 389.83,
+          "frame_index": 702,
+          "timestamp_sec": 23.415
+        },
+        {
+          "x": 815.32,
+          "y": 414.4,
+          "frame_index": 708,
+          "timestamp_sec": 23.615
+        }
+      ]
+    },
+    {
+      "track_id": 34,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 708,
+      "last_frame": 708,
+      "first_timestamp": 23.615,
+      "last_timestamp": 23.615,
+      "detection_count": 1,
+      "avg_confidence": 0.4163,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1020.26,
+          "y": 384.93,
+          "frame_index": 708,
+          "timestamp_sec": 23.615
+        }
+      ]
+    },
+    {
+      "track_id": 35,
+      "class_id": 1,
+      "class_name": "Missile",
+      "first_frame": 726,
+      "last_frame": 750,
+      "first_timestamp": 24.215,
+      "last_timestamp": 25.016,
+      "detection_count": 4,
+      "avg_confidence": 0.5669,
+      "movement_state": "MOVING",
+      "pixel_displacement": 53.32,
+      "trajectory_direction": "West",
+      "trajectory_points": [
+        {
+          "x": 796.76,
+          "y": 316.6,
+          "frame_index": 726,
+          "timestamp_sec": 24.215
+        },
+        {
+          "x": 641.85,
+          "y": 397.94,
+          "frame_index": 732,
+          "timestamp_sec": 24.415
+        },
+        {
+          "x": 573.08,
+          "y": 248.11,
+          "frame_index": 744,
+          "timestamp_sec": 24.816
+        },
+        {
+          "x": 744.25,
+          "y": 307.33,
+          "frame_index": 750,
+          "timestamp_sec": 25.016
+        }
+      ]
+    },
+    {
+      "track_id": 36,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 756,
+      "last_frame": 756,
+      "first_timestamp": 25.216,
+      "last_timestamp": 25.216,
+      "detection_count": 1,
+      "avg_confidence": 0.3585,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 931.2,
+          "y": 555.03,
+          "frame_index": 756,
+          "timestamp_sec": 25.216
+        }
+      ]
+    },
+    {
+      "track_id": 37,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 762,
+      "last_frame": 762,
+      "first_timestamp": 25.416,
+      "last_timestamp": 25.416,
+      "detection_count": 1,
+      "avg_confidence": 0.7115,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1083.03,
+          "y": 383.21,
+          "frame_index": 762,
+          "timestamp_sec": 25.416
+        }
+      ]
+    },
+    {
+      "track_id": 38,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 828,
+      "last_frame": 870,
+      "first_timestamp": 27.617,
+      "last_timestamp": 29.018,
+      "detection_count": 6,
+      "avg_confidence": 0.6848,
+      "movement_state": "MOVING",
+      "pixel_displacement": 127.36,
+      "trajectory_direction": "North-West",
+      "trajectory_points": [
+        {
+          "x": 660.31,
+          "y": 336.54,
+          "frame_index": 828,
+          "timestamp_sec": 27.617
+        },
+        {
+          "x": 766.22,
+          "y": 321.3,
+          "frame_index": 834,
+          "timestamp_sec": 27.818
+        },
+        {
+          "x": 647.95,
+          "y": 335.81,
+          "frame_index": 840,
+          "timestamp_sec": 28.018
+        },
+        {
+          "x": 643.58,
+          "y": 365.07,
+          "frame_index": 858,
+          "timestamp_sec": 28.618
+        },
+        {
+          "x": 610.51,
+          "y": 306.44,
+          "frame_index": 864,
+          "timestamp_sec": 28.818
+        },
+        {
+          "x": 545.98,
+          "y": 280.43,
+          "frame_index": 870,
+          "timestamp_sec": 29.018
+        }
+      ]
+    },
+    {
+      "track_id": 39,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 846,
+      "last_frame": 846,
+      "first_timestamp": 28.218,
+      "last_timestamp": 28.218,
+      "detection_count": 1,
+      "avg_confidence": 0.4572,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 348.2,
+          "y": 313.32,
+          "frame_index": 846,
+          "timestamp_sec": 28.218
+        }
+      ]
+    },
+    {
+      "track_id": 40,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 870,
+      "last_frame": 870,
+      "first_timestamp": 29.018,
+      "last_timestamp": 29.018,
+      "detection_count": 1,
+      "avg_confidence": 0.2759,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 382.44,
+          "y": 279.61,
+          "frame_index": 870,
+          "timestamp_sec": 29.018
+        }
+      ]
+    },
+    {
+      "track_id": 41,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 906,
+      "last_frame": 906,
+      "first_timestamp": 30.219,
+      "last_timestamp": 30.219,
+      "detection_count": 1,
+      "avg_confidence": 0.3837,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 635.17,
+          "y": 215.47,
+          "frame_index": 906,
+          "timestamp_sec": 30.219
+        }
+      ]
+    },
+    {
+      "track_id": 42,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 924,
+      "last_frame": 924,
+      "first_timestamp": 30.82,
+      "last_timestamp": 30.82,
+      "detection_count": 1,
+      "avg_confidence": 0.3965,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 839.01,
+          "y": 331.6,
+          "frame_index": 924,
+          "timestamp_sec": 30.82
+        }
+      ]
+    },
+    {
+      "track_id": 43,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 942,
+      "last_frame": 942,
+      "first_timestamp": 31.42,
+      "last_timestamp": 31.42,
+      "detection_count": 1,
+      "avg_confidence": 0.6929,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 411.47,
+          "y": 463.59,
+          "frame_index": 942,
+          "timestamp_sec": 31.42
+        }
+      ]
+    },
+    {
+      "track_id": 44,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 942,
+      "last_frame": 942,
+      "first_timestamp": 31.42,
+      "last_timestamp": 31.42,
+      "detection_count": 1,
+      "avg_confidence": 0.3917,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 730.83,
+          "y": 489.58,
+          "frame_index": 942,
+          "timestamp_sec": 31.42
+        }
+      ]
+    },
+    {
+      "track_id": 45,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 948,
+      "last_frame": 948,
+      "first_timestamp": 31.62,
+      "last_timestamp": 31.62,
+      "detection_count": 1,
+      "avg_confidence": 0.6351,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 473.74,
+          "y": 460.18,
+          "frame_index": 948,
+          "timestamp_sec": 31.62
+        }
+      ]
+    },
+    {
+      "track_id": 46,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 948,
+      "last_frame": 948,
+      "first_timestamp": 31.62,
+      "last_timestamp": 31.62,
+      "detection_count": 1,
+      "avg_confidence": 0.5076,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 734.36,
+          "y": 438.9,
+          "frame_index": 948,
+          "timestamp_sec": 31.62
+        }
+      ]
+    },
+    {
+      "track_id": 47,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 948,
+      "last_frame": 948,
+      "first_timestamp": 31.62,
+      "last_timestamp": 31.62,
+      "detection_count": 1,
+      "avg_confidence": 0.7772,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 833.48,
+          "y": 497.41,
+          "frame_index": 948,
+          "timestamp_sec": 31.62
+        }
+      ]
+    },
+    {
+      "track_id": 48,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 954,
+      "last_frame": 954,
+      "first_timestamp": 31.82,
+      "last_timestamp": 31.82,
+      "detection_count": 1,
+      "avg_confidence": 0.2539,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 774.04,
+          "y": 274.88,
+          "frame_index": 954,
+          "timestamp_sec": 31.82
+        }
+      ]
+    },
+    {
+      "track_id": 49,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 954,
+      "last_frame": 960,
+      "first_timestamp": 31.82,
+      "last_timestamp": 32.02,
+      "detection_count": 2,
+      "avg_confidence": 0.683,
+      "movement_state": "MOVING",
+      "pixel_displacement": 37.9,
+      "trajectory_direction": "North-West",
+      "trajectory_points": [
+        {
+          "x": 888.11,
+          "y": 344.29,
+          "frame_index": 954,
+          "timestamp_sec": 31.82
+        },
+        {
+          "x": 870.85,
+          "y": 310.55,
+          "frame_index": 960,
+          "timestamp_sec": 32.02
+        }
+      ]
+    },
+    {
+      "track_id": 50,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 966,
+      "last_frame": 966,
+      "first_timestamp": 32.22,
+      "last_timestamp": 32.22,
+      "detection_count": 1,
+      "avg_confidence": 0.3871,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 423.39,
+          "y": 388.75,
+          "frame_index": 966,
+          "timestamp_sec": 32.22
+        }
+      ]
+    },
+    {
+      "track_id": 51,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 966,
+      "last_frame": 966,
+      "first_timestamp": 32.22,
+      "last_timestamp": 32.22,
+      "detection_count": 1,
+      "avg_confidence": 0.3469,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 787.12,
+          "y": 379.86,
+          "frame_index": 966,
+          "timestamp_sec": 32.22
+        }
+      ]
+    },
+    {
+      "track_id": 52,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 966,
+      "last_frame": 966,
+      "first_timestamp": 32.22,
+      "last_timestamp": 32.22,
+      "detection_count": 1,
+      "avg_confidence": 0.7069,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 901.4,
+          "y": 466.6,
+          "frame_index": 966,
+          "timestamp_sec": 32.22
+        }
+      ]
+    },
+    {
+      "track_id": 53,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 972,
+      "last_frame": 1086,
+      "first_timestamp": 32.421,
+      "last_timestamp": 36.223,
+      "detection_count": 15,
+      "avg_confidence": 0.5538,
+      "movement_state": "MOVING",
+      "pixel_displacement": 205.99,
+      "trajectory_direction": "North",
+      "trajectory_points": [
+        {
+          "x": 633.59,
+          "y": 504.24,
+          "frame_index": 972,
+          "timestamp_sec": 32.421
+        },
+        {
+          "x": 655.64,
+          "y": 444.98,
+          "frame_index": 984,
+          "timestamp_sec": 32.821
+        },
+        {
+          "x": 651.13,
+          "y": 350.42,
+          "frame_index": 996,
+          "timestamp_sec": 33.221
+        },
+        {
+          "x": 711.76,
+          "y": 416.16,
+          "frame_index": 1008,
+          "timestamp_sec": 33.621
+        },
+        {
+          "x": 700.05,
+          "y": 328.61,
+          "frame_index": 1014,
+          "timestamp_sec": 33.821
+        },
+        {
+          "x": 645.26,
+          "y": 268.17,
+          "frame_index": 1026,
+          "timestamp_sec": 34.222
+        },
+        {
+          "x": 654.71,
+          "y": 363.41,
+          "frame_index": 1032,
+          "timestamp_sec": 34.422
+        },
+        {
+          "x": 702.89,
+          "y": 350.83,
+          "frame_index": 1038,
+          "timestamp_sec": 34.622
+        },
+        {
+          "x": 728.47,
+          "y": 240.8,
+          "frame_index": 1044,
+          "timestamp_sec": 34.822
+        },
+        {
+          "x": 723.66,
+          "y": 254.96,
+          "frame_index": 1050,
+          "timestamp_sec": 35.022
+        },
+        {
+          "x": 709.11,
+          "y": 271.64,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        },
+        {
+          "x": 669.95,
+          "y": 229.25,
+          "frame_index": 1062,
+          "timestamp_sec": 35.422
+        },
+        {
+          "x": 856.65,
+          "y": 286.91,
+          "frame_index": 1074,
+          "timestamp_sec": 35.823
+        },
+        {
+          "x": 844.05,
+          "y": 338.9,
+          "frame_index": 1080,
+          "timestamp_sec": 36.023
+        },
+        {
+          "x": 618.91,
+          "y": 298.77,
+          "frame_index": 1086,
+          "timestamp_sec": 36.223
+        }
+      ]
+    },
+    {
+      "track_id": 54,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 972,
+      "last_frame": 972,
+      "first_timestamp": 32.421,
+      "last_timestamp": 32.421,
+      "detection_count": 1,
+      "avg_confidence": 0.9249,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 904.66,
+          "y": 557.39,
+          "frame_index": 972,
+          "timestamp_sec": 32.421
+        }
+      ]
+    },
+    {
+      "track_id": 55,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 978,
+      "last_frame": 978,
+      "first_timestamp": 32.621,
+      "last_timestamp": 32.621,
+      "detection_count": 1,
+      "avg_confidence": 0.4711,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 814.21,
+          "y": 549.69,
+          "frame_index": 978,
+          "timestamp_sec": 32.621
+        }
+      ]
+    },
+    {
+      "track_id": 56,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 978,
+      "last_frame": 978,
+      "first_timestamp": 32.621,
+      "last_timestamp": 32.621,
+      "detection_count": 1,
+      "avg_confidence": 0.7271,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 928.22,
+          "y": 638.15,
+          "frame_index": 978,
+          "timestamp_sec": 32.621
+        }
+      ]
+    },
+    {
+      "track_id": 57,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 984,
+      "last_frame": 984,
+      "first_timestamp": 32.821,
+      "last_timestamp": 32.821,
+      "detection_count": 1,
+      "avg_confidence": 0.8538,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 956.67,
+          "y": 487.35,
+          "frame_index": 984,
+          "timestamp_sec": 32.821
+        }
+      ]
+    },
+    {
+      "track_id": 58,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 990,
+      "last_frame": 990,
+      "first_timestamp": 33.021,
+      "last_timestamp": 33.021,
+      "detection_count": 1,
+      "avg_confidence": 0.6397,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 413.61,
+          "y": 301.76,
+          "frame_index": 990,
+          "timestamp_sec": 33.021
+        }
+      ]
+    },
+    {
+      "track_id": 59,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 990,
+      "last_frame": 990,
+      "first_timestamp": 33.021,
+      "last_timestamp": 33.021,
+      "detection_count": 1,
+      "avg_confidence": 0.8236,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 856.4,
+          "y": 253.94,
+          "frame_index": 990,
+          "timestamp_sec": 33.021
+        }
+      ]
+    },
+    {
+      "track_id": 60,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1002,
+      "last_frame": 1002,
+      "first_timestamp": 33.421,
+      "last_timestamp": 33.421,
+      "detection_count": 1,
+      "avg_confidence": 0.3991,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 901.68,
+          "y": 573.47,
+          "frame_index": 1002,
+          "timestamp_sec": 33.421
+        }
+      ]
+    },
+    {
+      "track_id": 61,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1020,
+      "last_frame": 1020,
+      "first_timestamp": 34.022,
+      "last_timestamp": 34.022,
+      "detection_count": 1,
+      "avg_confidence": 0.465,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 508.71,
+          "y": 353.15,
+          "frame_index": 1020,
+          "timestamp_sec": 34.022
+        }
+      ]
+    },
+    {
+      "track_id": 62,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1050,
+      "last_frame": 1056,
+      "first_timestamp": 35.022,
+      "last_timestamp": 35.222,
+      "detection_count": 2,
+      "avg_confidence": 0.7571,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 14.62,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 602.76,
+          "y": 334.28,
+          "frame_index": 1050,
+          "timestamp_sec": 35.022
+        },
+        {
+          "x": 602.7,
+          "y": 348.9,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        }
+      ]
+    },
+    {
+      "track_id": 63,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1050,
+      "last_frame": 1050,
+      "first_timestamp": 35.022,
+      "last_timestamp": 35.022,
+      "detection_count": 1,
+      "avg_confidence": 0.3894,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1088.73,
+          "y": 440.27,
+          "frame_index": 1050,
+          "timestamp_sec": 35.022
+        }
+      ]
+    },
+    {
+      "track_id": 64,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1056,
+      "last_frame": 1074,
+      "first_timestamp": 35.222,
+      "last_timestamp": 35.823,
+      "detection_count": 2,
+      "avg_confidence": 0.447,
+      "movement_state": "MOVING",
+      "pixel_displacement": 19.15,
+      "trajectory_direction": "South-West",
+      "trajectory_points": [
+        {
+          "x": 476.33,
+          "y": 224.78,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        },
+        {
+          "x": 460.81,
+          "y": 236.0,
+          "frame_index": 1074,
+          "timestamp_sec": 35.823
+        }
+      ]
+    },
+    {
+      "track_id": 65,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1056,
+      "last_frame": 1056,
+      "first_timestamp": 35.222,
+      "last_timestamp": 35.222,
+      "detection_count": 1,
+      "avg_confidence": 0.4939,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 774.59,
+          "y": 192.0,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        }
+      ]
+    },
+    {
+      "track_id": 66,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1056,
+      "last_frame": 1056,
+      "first_timestamp": 35.222,
+      "last_timestamp": 35.222,
+      "detection_count": 1,
+      "avg_confidence": 0.5696,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 942.28,
+          "y": 301.2,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        }
+      ]
+    },
+    {
+      "track_id": 67,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1056,
+      "last_frame": 1056,
+      "first_timestamp": 35.222,
+      "last_timestamp": 35.222,
+      "detection_count": 1,
+      "avg_confidence": 0.2912,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1183.73,
+          "y": 581.49,
+          "frame_index": 1056,
+          "timestamp_sec": 35.222
+        }
+      ]
+    },
+    {
+      "track_id": 68,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1062,
+      "last_frame": 1062,
+      "first_timestamp": 35.422,
+      "last_timestamp": 35.422,
+      "detection_count": 1,
+      "avg_confidence": 0.3163,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 575.06,
+          "y": 286.56,
+          "frame_index": 1062,
+          "timestamp_sec": 35.422
+        }
+      ]
+    },
+    {
+      "track_id": 69,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1068,
+      "last_frame": 1068,
+      "first_timestamp": 35.623,
+      "last_timestamp": 35.623,
+      "detection_count": 1,
+      "avg_confidence": 0.3349,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 446.39,
+          "y": 194.58,
+          "frame_index": 1068,
+          "timestamp_sec": 35.623
+        }
+      ]
+    },
+    {
+      "track_id": 70,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1104,
+      "last_frame": 1104,
+      "first_timestamp": 36.823,
+      "last_timestamp": 36.823,
+      "detection_count": 1,
+      "avg_confidence": 0.262,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 373.14,
+          "y": 460.41,
+          "frame_index": 1104,
+          "timestamp_sec": 36.823
+        }
+      ]
+    },
+    {
+      "track_id": 71,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1134,
+      "last_frame": 1152,
+      "first_timestamp": 37.824,
+      "last_timestamp": 38.424,
+      "detection_count": 3,
+      "avg_confidence": 0.5778,
+      "movement_state": "MOVING",
+      "pixel_displacement": 273.45,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 386.34,
+          "y": 416.48,
+          "frame_index": 1134,
+          "timestamp_sec": 37.824
+        },
+        {
+          "x": 609.09,
+          "y": 515.77,
+          "frame_index": 1146,
+          "timestamp_sec": 38.224
+        },
+        {
+          "x": 640.57,
+          "y": 517.19,
+          "frame_index": 1152,
+          "timestamp_sec": 38.424
+        }
+      ]
+    },
+    {
+      "track_id": 72,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1134,
+      "last_frame": 1134,
+      "first_timestamp": 37.824,
+      "last_timestamp": 37.824,
+      "detection_count": 1,
+      "avg_confidence": 0.5053,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1051.71,
+          "y": 216.69,
+          "frame_index": 1134,
+          "timestamp_sec": 37.824
+        }
+      ]
+    },
+    {
+      "track_id": 73,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1152,
+      "last_frame": 1194,
+      "first_timestamp": 38.424,
+      "last_timestamp": 39.825,
+      "detection_count": 7,
+      "avg_confidence": 0.5158,
+      "movement_state": "MOVING",
+      "pixel_displacement": 100.57,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 626.82,
+          "y": 390.26,
+          "frame_index": 1152,
+          "timestamp_sec": 38.424
+        },
+        {
+          "x": 647.9,
+          "y": 303.01,
+          "frame_index": 1158,
+          "timestamp_sec": 38.624
+        },
+        {
+          "x": 644.04,
+          "y": 370.28,
+          "frame_index": 1170,
+          "timestamp_sec": 39.025
+        },
+        {
+          "x": 543.1,
+          "y": 276.9,
+          "frame_index": 1176,
+          "timestamp_sec": 39.225
+        },
+        {
+          "x": 635.07,
+          "y": 294.15,
+          "frame_index": 1182,
+          "timestamp_sec": 39.425
+        },
+        {
+          "x": 648.74,
+          "y": 316.24,
+          "frame_index": 1188,
+          "timestamp_sec": 39.625
+        },
+        {
+          "x": 727.32,
+          "y": 394.05,
+          "frame_index": 1194,
+          "timestamp_sec": 39.825
+        }
+      ]
+    },
+    {
+      "track_id": 74,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1260,
+      "last_frame": 1260,
+      "first_timestamp": 42.027,
+      "last_timestamp": 42.027,
+      "detection_count": 1,
+      "avg_confidence": 0.3742,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 624.43,
+          "y": 378.66,
+          "frame_index": 1260,
+          "timestamp_sec": 42.027
+        }
+      ]
+    },
+    {
+      "track_id": 75,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1308,
+      "last_frame": 1308,
+      "first_timestamp": 43.628,
+      "last_timestamp": 43.628,
+      "detection_count": 1,
+      "avg_confidence": 0.2544,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 746.07,
+          "y": 480.8,
+          "frame_index": 1308,
+          "timestamp_sec": 43.628
+        }
+      ]
+    },
+    {
+      "track_id": 76,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1314,
+      "last_frame": 1314,
+      "first_timestamp": 43.828,
+      "last_timestamp": 43.828,
+      "detection_count": 1,
+      "avg_confidence": 0.3808,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 906.15,
+          "y": 506.71,
+          "frame_index": 1314,
+          "timestamp_sec": 43.828
+        }
+      ]
+    },
+    {
+      "track_id": 77,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 1320,
+      "last_frame": 1320,
+      "first_timestamp": 44.028,
+      "last_timestamp": 44.028,
+      "detection_count": 1,
+      "avg_confidence": 0.4462,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 931.28,
+          "y": 303.29,
+          "frame_index": 1320,
+          "timestamp_sec": 44.028
+        }
+      ]
+    },
+    {
+      "track_id": 78,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1320,
+      "last_frame": 1320,
+      "first_timestamp": 44.028,
+      "last_timestamp": 44.028,
+      "detection_count": 1,
+      "avg_confidence": 0.4206,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1003.04,
+          "y": 337.48,
+          "frame_index": 1320,
+          "timestamp_sec": 44.028
+        }
+      ]
+    },
+    {
+      "track_id": 79,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1320,
+      "last_frame": 1320,
+      "first_timestamp": 44.028,
+      "last_timestamp": 44.028,
+      "detection_count": 1,
+      "avg_confidence": 0.3802,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1005.04,
+          "y": 337.02,
+          "frame_index": 1320,
+          "timestamp_sec": 44.028
+        }
+      ]
+    },
+    {
+      "track_id": 80,
+      "class_id": 0,
+      "class_name": "Artilary",
+      "first_frame": 1326,
+      "last_frame": 1326,
+      "first_timestamp": 44.228,
+      "last_timestamp": 44.228,
+      "detection_count": 1,
+      "avg_confidence": 0.4976,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 926.32,
+          "y": 170.69,
+          "frame_index": 1326,
+          "timestamp_sec": 44.228
+        }
+      ]
+    },
+    {
+      "track_id": 81,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1332,
+      "last_frame": 1332,
+      "first_timestamp": 44.428,
+      "last_timestamp": 44.428,
+      "detection_count": 1,
+      "avg_confidence": 0.2756,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 833.15,
+          "y": 87.82,
+          "frame_index": 1332,
+          "timestamp_sec": 44.428
+        }
+      ]
+    },
+    {
+      "track_id": 82,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1356,
+      "last_frame": 1356,
+      "first_timestamp": 45.229,
+      "last_timestamp": 45.229,
+      "detection_count": 1,
+      "avg_confidence": 0.3836,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 675.41,
+          "y": 84.23,
+          "frame_index": 1356,
+          "timestamp_sec": 45.229
+        }
+      ]
+    },
+    {
+      "track_id": 83,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1362,
+      "last_frame": 1362,
+      "first_timestamp": 45.429,
+      "last_timestamp": 45.429,
+      "detection_count": 1,
+      "avg_confidence": 0.4083,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 843.83,
+          "y": 118.18,
+          "frame_index": 1362,
+          "timestamp_sec": 45.429
+        }
+      ]
+    },
+    {
+      "track_id": 84,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1380,
+      "last_frame": 1380,
+      "first_timestamp": 46.029,
+      "last_timestamp": 46.029,
+      "detection_count": 1,
+      "avg_confidence": 0.5171,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1001.43,
+          "y": 222.65,
+          "frame_index": 1380,
+          "timestamp_sec": 46.029
+        }
+      ]
+    },
+    {
+      "track_id": 85,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1452,
+      "last_frame": 1452,
+      "first_timestamp": 48.431,
+      "last_timestamp": 48.431,
+      "detection_count": 1,
+      "avg_confidence": 0.3885,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 732.59,
+          "y": 126.51,
+          "frame_index": 1452,
+          "timestamp_sec": 48.431
+        }
+      ]
+    },
+    {
+      "track_id": 86,
+      "class_id": 2,
+      "class_name": "Radar",
+      "first_frame": 1494,
+      "last_frame": 1506,
+      "first_timestamp": 49.832,
+      "last_timestamp": 50.232,
+      "detection_count": 3,
+      "avg_confidence": 0.3037,
+      "movement_state": "MOVING",
+      "pixel_displacement": 29.34,
+      "trajectory_direction": "North",
+      "trajectory_points": [
+        {
+          "x": 766.82,
+          "y": 298.37,
+          "frame_index": 1494,
+          "timestamp_sec": 49.832
+        },
+        {
+          "x": 769.67,
+          "y": 299.18,
+          "frame_index": 1500,
+          "timestamp_sec": 50.032
+        },
+        {
+          "x": 772.66,
+          "y": 269.62,
+          "frame_index": 1506,
+          "timestamp_sec": 50.232
+        }
+      ]
+    },
+    {
+      "track_id": 87,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1512,
+      "last_frame": 1524,
+      "first_timestamp": 50.432,
+      "last_timestamp": 50.832,
+      "detection_count": 3,
+      "avg_confidence": 0.2981,
+      "movement_state": "MOVING",
+      "pixel_displacement": 15.03,
+      "trajectory_direction": "South",
+      "trajectory_points": [
+        {
+          "x": 638.16,
+          "y": 550.76,
+          "frame_index": 1512,
+          "timestamp_sec": 50.432
+        },
+        {
+          "x": 639.62,
+          "y": 550.01,
+          "frame_index": 1518,
+          "timestamp_sec": 50.632
+        },
+        {
+          "x": 641.08,
+          "y": 565.5,
+          "frame_index": 1524,
+          "timestamp_sec": 50.832
+        }
+      ]
+    },
+    {
+      "track_id": 88,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1512,
+      "last_frame": 1602,
+      "first_timestamp": 50.432,
+      "last_timestamp": 53.434,
+      "detection_count": 14,
+      "avg_confidence": 0.6027,
+      "movement_state": "MOVING",
+      "pixel_displacement": 367.52,
+      "trajectory_direction": "North-West",
+      "trajectory_points": [
+        {
+          "x": 639.57,
+          "y": 464.73,
+          "frame_index": 1512,
+          "timestamp_sec": 50.432
+        },
+        {
+          "x": 640.55,
+          "y": 463.86,
+          "frame_index": 1518,
+          "timestamp_sec": 50.632
+        },
+        {
+          "x": 641.96,
+          "y": 450.0,
+          "frame_index": 1524,
+          "timestamp_sec": 50.832
+        },
+        {
+          "x": 634.01,
+          "y": 459.12,
+          "frame_index": 1530,
+          "timestamp_sec": 51.032
+        },
+        {
+          "x": 641.69,
+          "y": 476.4,
+          "frame_index": 1536,
+          "timestamp_sec": 51.232
+        },
+        {
+          "x": 638.85,
+          "y": 494.56,
+          "frame_index": 1542,
+          "timestamp_sec": 51.433
+        },
+        {
+          "x": 635.47,
+          "y": 491.16,
+          "frame_index": 1560,
+          "timestamp_sec": 52.033
+        },
+        {
+          "x": 638.58,
+          "y": 457.44,
+          "frame_index": 1566,
+          "timestamp_sec": 52.233
+        },
+        {
+          "x": 607.4,
+          "y": 410.3,
+          "frame_index": 1572,
+          "timestamp_sec": 52.433
+        },
+        {
+          "x": 640.25,
+          "y": 379.21,
+          "frame_index": 1578,
+          "timestamp_sec": 52.633
+        },
+        {
+          "x": 608.9,
+          "y": 394.02,
+          "frame_index": 1584,
+          "timestamp_sec": 52.833
+        },
+        {
+          "x": 527.23,
+          "y": 343.29,
+          "frame_index": 1590,
+          "timestamp_sec": 53.034
+        },
+        {
+          "x": 448.02,
+          "y": 249.23,
+          "frame_index": 1596,
+          "timestamp_sec": 53.234
+        },
+        {
+          "x": 428.28,
+          "y": 164.02,
+          "frame_index": 1602,
+          "timestamp_sec": 53.434
+        }
+      ]
+    },
+    {
+      "track_id": 89,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1530,
+      "last_frame": 1530,
+      "first_timestamp": 51.032,
+      "last_timestamp": 51.032,
+      "detection_count": 1,
+      "avg_confidence": 0.2884,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 878.73,
+          "y": 282.43,
+          "frame_index": 1530,
+          "timestamp_sec": 51.032
+        }
+      ]
+    },
+    {
+      "track_id": 90,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1578,
+      "last_frame": 1578,
+      "first_timestamp": 52.633,
+      "last_timestamp": 52.633,
+      "detection_count": 1,
+      "avg_confidence": 0.5529,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 632.46,
+          "y": 527.18,
+          "frame_index": 1578,
+          "timestamp_sec": 52.633
+        }
+      ]
+    },
+    {
+      "track_id": 91,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1590,
+      "last_frame": 1590,
+      "first_timestamp": 53.034,
+      "last_timestamp": 53.034,
+      "detection_count": 1,
+      "avg_confidence": 0.3102,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1039.17,
+          "y": 390.97,
+          "frame_index": 1590,
+          "timestamp_sec": 53.034
+        }
+      ]
+    },
+    {
+      "track_id": 92,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1638,
+      "last_frame": 1638,
+      "first_timestamp": 54.635,
+      "last_timestamp": 54.635,
+      "detection_count": 1,
+      "avg_confidence": 0.3368,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 592.66,
+          "y": 287.06,
+          "frame_index": 1638,
+          "timestamp_sec": 54.635
+        }
+      ]
+    },
+    {
+      "track_id": 93,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1638,
+      "last_frame": 1638,
+      "first_timestamp": 54.635,
+      "last_timestamp": 54.635,
+      "detection_count": 1,
+      "avg_confidence": 0.3655,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 594.79,
+          "y": 271.81,
+          "frame_index": 1638,
+          "timestamp_sec": 54.635
+        }
+      ]
+    },
+    {
+      "track_id": 94,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1680,
+      "last_frame": 1686,
+      "first_timestamp": 56.035,
+      "last_timestamp": 56.236,
+      "detection_count": 2,
+      "avg_confidence": 0.4218,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 6.96,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 441.04,
+          "y": 333.46,
+          "frame_index": 1680,
+          "timestamp_sec": 56.035
+        },
+        {
+          "x": 435.95,
+          "y": 338.21,
+          "frame_index": 1686,
+          "timestamp_sec": 56.236
+        }
+      ]
+    },
+    {
+      "track_id": 95,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1728,
+      "last_frame": 1728,
+      "first_timestamp": 57.637,
+      "last_timestamp": 57.637,
+      "detection_count": 1,
+      "avg_confidence": 0.2978,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 534.26,
+          "y": 535.25,
+          "frame_index": 1728,
+          "timestamp_sec": 57.637
+        }
+      ]
+    },
+    {
+      "track_id": 96,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 1740,
+      "last_frame": 1758,
+      "first_timestamp": 58.037,
+      "last_timestamp": 58.637,
+      "detection_count": 2,
+      "avg_confidence": 0.3197,
+      "movement_state": "MOVING",
+      "pixel_displacement": 39.62,
+      "trajectory_direction": "North-West",
+      "trajectory_points": [
+        {
+          "x": 1236.22,
+          "y": 61.89,
+          "frame_index": 1740,
+          "timestamp_sec": 58.037
+        },
+        {
+          "x": 1201.41,
+          "y": 42.97,
+          "frame_index": 1758,
+          "timestamp_sec": 58.637
+        }
+      ]
+    },
+    {
+      "track_id": 97,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 1764,
+      "last_frame": 1764,
+      "first_timestamp": 58.837,
+      "last_timestamp": 58.837,
+      "detection_count": 1,
+      "avg_confidence": 0.5812,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 442.95,
+          "y": 580.14,
+          "frame_index": 1764,
+          "timestamp_sec": 58.837
+        }
+      ]
+    }
+  ]
+}

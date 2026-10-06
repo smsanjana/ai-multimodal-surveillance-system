@@ -1,0 +1,1469 @@
+{
+  "analysis_id": "58c3a9ee-c9d1-4923-a63e-cfbec839610e",
+  "tracks": [
+    {
+      "track_id": 1,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 0,
+      "last_frame": 485,
+      "first_timestamp": 0.0,
+      "last_timestamp": 19.4,
+      "detection_count": 95,
+      "avg_confidence": 0.7482,
+      "movement_state": "MOVING",
+      "pixel_displacement": 76.83,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 1159.43,
+          "y": 379.47,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 1156.99,
+          "y": 382.64,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 1157.66,
+          "y": 386.95,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 1159.05,
+          "y": 388.95,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        },
+        {
+          "x": 1159.71,
+          "y": 389.79,
+          "frame_index": 20,
+          "timestamp_sec": 0.8
+        },
+        {
+          "x": 1160.56,
+          "y": 389.72,
+          "frame_index": 25,
+          "timestamp_sec": 1.0
+        },
+        {
+          "x": 1160.55,
+          "y": 389.68,
+          "frame_index": 30,
+          "timestamp_sec": 1.2
+        },
+        {
+          "x": 1160.7,
+          "y": 388.11,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        },
+        {
+          "x": 1161.2,
+          "y": 384.57,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        },
+        {
+          "x": 1166.13,
+          "y": 379.92,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 1164.78,
+          "y": 378.19,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        },
+        {
+          "x": 1163.59,
+          "y": 373.03,
+          "frame_index": 55,
+          "timestamp_sec": 2.2
+        },
+        {
+          "x": 1164.36,
+          "y": 371.85,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 1165.12,
+          "y": 370.19,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 1167.61,
+          "y": 369.69,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 1170.9,
+          "y": 368.86,
+          "frame_index": 75,
+          "timestamp_sec": 3.0
+        },
+        {
+          "x": 1171.1,
+          "y": 369.88,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 1170.62,
+          "y": 373.46,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 1177.21,
+          "y": 377.31,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 1174.48,
+          "y": 378.24,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 1174.6,
+          "y": 381.17,
+          "frame_index": 100,
+          "timestamp_sec": 4.0
+        },
+        {
+          "x": 1174.81,
+          "y": 386.18,
+          "frame_index": 105,
+          "timestamp_sec": 4.2
+        },
+        {
+          "x": 1175.94,
+          "y": 388.29,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 1176.45,
+          "y": 388.96,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 1178.78,
+          "y": 388.82,
+          "frame_index": 120,
+          "timestamp_sec": 4.8
+        },
+        {
+          "x": 1181.33,
+          "y": 387.77,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 1181.84,
+          "y": 385.99,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        },
+        {
+          "x": 1183.19,
+          "y": 384.77,
+          "frame_index": 135,
+          "timestamp_sec": 5.4
+        },
+        {
+          "x": 1184.45,
+          "y": 379.96,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 1184.83,
+          "y": 377.28,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 1183.18,
+          "y": 372.65,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 1183.41,
+          "y": 370.66,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 1183.53,
+          "y": 370.76,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 1184.5,
+          "y": 371.08,
+          "frame_index": 165,
+          "timestamp_sec": 6.6
+        },
+        {
+          "x": 1186.97,
+          "y": 370.26,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 1187.92,
+          "y": 371.22,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 1188.42,
+          "y": 373.15,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        },
+        {
+          "x": 1190.24,
+          "y": 376.98,
+          "frame_index": 185,
+          "timestamp_sec": 7.4
+        },
+        {
+          "x": 1190.43,
+          "y": 379.97,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        },
+        {
+          "x": 1189.56,
+          "y": 383.21,
+          "frame_index": 195,
+          "timestamp_sec": 7.8
+        },
+        {
+          "x": 1190.5,
+          "y": 386.5,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        },
+        {
+          "x": 1188.76,
+          "y": 389.61,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 1189.29,
+          "y": 390.11,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 1191.01,
+          "y": 389.1,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        },
+        {
+          "x": 1192.28,
+          "y": 387.15,
+          "frame_index": 225,
+          "timestamp_sec": 9.0
+        },
+        {
+          "x": 1192.35,
+          "y": 383.43,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        },
+        {
+          "x": 1195.08,
+          "y": 380.06,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 1195.86,
+          "y": 376.81,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 1196.01,
+          "y": 372.66,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 1196.52,
+          "y": 369.98,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 1195.69,
+          "y": 369.41,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 1197.02,
+          "y": 369.81,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 1198.08,
+          "y": 369.61,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 1199.36,
+          "y": 371.28,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 1200.74,
+          "y": 374.5,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        },
+        {
+          "x": 1202.82,
+          "y": 377.78,
+          "frame_index": 280,
+          "timestamp_sec": 11.2
+        },
+        {
+          "x": 1202.55,
+          "y": 379.99,
+          "frame_index": 285,
+          "timestamp_sec": 11.4
+        },
+        {
+          "x": 1204.02,
+          "y": 382.99,
+          "frame_index": 290,
+          "timestamp_sec": 11.6
+        },
+        {
+          "x": 1207.5,
+          "y": 386.76,
+          "frame_index": 295,
+          "timestamp_sec": 11.8
+        },
+        {
+          "x": 1206.4,
+          "y": 388.91,
+          "frame_index": 300,
+          "timestamp_sec": 12.0
+        },
+        {
+          "x": 1206.23,
+          "y": 389.04,
+          "frame_index": 305,
+          "timestamp_sec": 12.2
+        },
+        {
+          "x": 1207.2,
+          "y": 389.18,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        },
+        {
+          "x": 1208.72,
+          "y": 388.2,
+          "frame_index": 315,
+          "timestamp_sec": 12.6
+        },
+        {
+          "x": 1210.47,
+          "y": 386.28,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 1212.98,
+          "y": 382.92,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 1215.83,
+          "y": 379.5,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 1214.31,
+          "y": 376.61,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 1214.25,
+          "y": 372.39,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 1215.44,
+          "y": 370.08,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 1215.85,
+          "y": 370.54,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 1215.89,
+          "y": 370.55,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 1216.58,
+          "y": 370.14,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 1216.76,
+          "y": 371.85,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 1218.86,
+          "y": 374.96,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        },
+        {
+          "x": 1222.44,
+          "y": 377.8,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        },
+        {
+          "x": 1223.11,
+          "y": 379.97,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 1219.52,
+          "y": 384.84,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 1221.86,
+          "y": 387.35,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 1222.0,
+          "y": 389.71,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 1221.81,
+          "y": 389.92,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 1221.82,
+          "y": 389.91,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 1221.81,
+          "y": 388.55,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 1224.22,
+          "y": 385.11,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 1225.85,
+          "y": 382.64,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 1225.89,
+          "y": 379.95,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 1224.87,
+          "y": 377.37,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 1228.48,
+          "y": 374.7,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 1226.34,
+          "y": 370.54,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 1227.95,
+          "y": 369.6,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 1228.45,
+          "y": 369.57,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 1228.8,
+          "y": 370.97,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 1229.92,
+          "y": 373.81,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 1234.31,
+          "y": 379.36,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 1234.21,
+          "y": 384.4,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 1235.89,
+          "y": 386.95,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        }
+      ]
+    },
+    {
+      "track_id": 2,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 10,
+      "last_frame": 10,
+      "first_timestamp": 0.4,
+      "last_timestamp": 0.4,
+      "detection_count": 1,
+      "avg_confidence": 0.2862,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 190.55,
+          "y": 328.63,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        }
+      ]
+    },
+    {
+      "track_id": 3,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 40,
+      "last_frame": 290,
+      "first_timestamp": 1.6,
+      "last_timestamp": 11.6,
+      "detection_count": 47,
+      "avg_confidence": 0.571,
+      "movement_state": "MOVING",
+      "pixel_displacement": 17.39,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 195.52,
+          "y": 323.98,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        },
+        {
+          "x": 204.98,
+          "y": 325.95,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 196.93,
+          "y": 322.92,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        },
+        {
+          "x": 195.12,
+          "y": 323.51,
+          "frame_index": 55,
+          "timestamp_sec": 2.2
+        },
+        {
+          "x": 225.14,
+          "y": 319.45,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 230.43,
+          "y": 318.5,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 230.0,
+          "y": 316.66,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 230.71,
+          "y": 317.69,
+          "frame_index": 75,
+          "timestamp_sec": 3.0
+        },
+        {
+          "x": 216.62,
+          "y": 317.2,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 204.91,
+          "y": 321.87,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 203.83,
+          "y": 321.76,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 197.82,
+          "y": 324.29,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 201.6,
+          "y": 327.41,
+          "frame_index": 100,
+          "timestamp_sec": 4.0
+        },
+        {
+          "x": 204.78,
+          "y": 325.46,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 207.12,
+          "y": 327.57,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 206.98,
+          "y": 327.31,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 206.32,
+          "y": 326.96,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        },
+        {
+          "x": 202.87,
+          "y": 326.61,
+          "frame_index": 135,
+          "timestamp_sec": 5.4
+        },
+        {
+          "x": 205.04,
+          "y": 322.8,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 202.19,
+          "y": 322.81,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 232.9,
+          "y": 321.55,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 235.65,
+          "y": 322.95,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 232.83,
+          "y": 321.28,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 206.17,
+          "y": 322.1,
+          "frame_index": 165,
+          "timestamp_sec": 6.6
+        },
+        {
+          "x": 233.74,
+          "y": 321.6,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 234.43,
+          "y": 321.11,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 235.59,
+          "y": 322.08,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        },
+        {
+          "x": 209.38,
+          "y": 322.01,
+          "frame_index": 185,
+          "timestamp_sec": 7.4
+        },
+        {
+          "x": 200.65,
+          "y": 325.27,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        },
+        {
+          "x": 208.42,
+          "y": 326.9,
+          "frame_index": 195,
+          "timestamp_sec": 7.8
+        },
+        {
+          "x": 211.63,
+          "y": 327.05,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        },
+        {
+          "x": 211.86,
+          "y": 324.82,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 206.23,
+          "y": 327.31,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 209.25,
+          "y": 327.26,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        },
+        {
+          "x": 215.77,
+          "y": 325.74,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        },
+        {
+          "x": 242.52,
+          "y": 323.66,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 229.3,
+          "y": 318.18,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 234.35,
+          "y": 321.4,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 235.37,
+          "y": 315.02,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 234.04,
+          "y": 316.99,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 233.82,
+          "y": 317.4,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 233.21,
+          "y": 317.88,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 232.45,
+          "y": 316.77,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 226.11,
+          "y": 322.54,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        },
+        {
+          "x": 213.11,
+          "y": 326.25,
+          "frame_index": 280,
+          "timestamp_sec": 11.2
+        },
+        {
+          "x": 210.38,
+          "y": 326.42,
+          "frame_index": 285,
+          "timestamp_sec": 11.4
+        },
+        {
+          "x": 212.11,
+          "y": 329.19,
+          "frame_index": 290,
+          "timestamp_sec": 11.6
+        }
+      ]
+    },
+    {
+      "track_id": 4,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 115,
+      "last_frame": 130,
+      "first_timestamp": 4.6,
+      "last_timestamp": 5.2,
+      "detection_count": 3,
+      "avg_confidence": 0.3712,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 6.67,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1173.75,
+          "y": 386.9,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 1179.47,
+          "y": 385.8,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 1179.97,
+          "y": 384.5,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        }
+      ]
+    },
+    {
+      "track_id": 5,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 155,
+      "last_frame": 160,
+      "first_timestamp": 6.2,
+      "last_timestamp": 6.4,
+      "detection_count": 2,
+      "avg_confidence": 0.4099,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.53,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1182.23,
+          "y": 370.09,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 1181.9,
+          "y": 369.68,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        }
+      ]
+    },
+    {
+      "track_id": 6,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 185,
+      "last_frame": 185,
+      "first_timestamp": 7.4,
+      "last_timestamp": 7.4,
+      "detection_count": 1,
+      "avg_confidence": 0.4449,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1190.31,
+          "y": 377.04,
+          "frame_index": 185,
+          "timestamp_sec": 7.4
+        }
+      ]
+    },
+    {
+      "track_id": 7,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 245,
+      "last_frame": 270,
+      "first_timestamp": 9.8,
+      "last_timestamp": 10.8,
+      "detection_count": 6,
+      "avg_confidence": 0.3693,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 2.92,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1196.12,
+          "y": 371.64,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 1196.32,
+          "y": 369.05,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 1196.14,
+          "y": 369.53,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 1197.05,
+          "y": 369.42,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 1198.12,
+          "y": 369.14,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 1198.67,
+          "y": 370.21,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        }
+      ]
+    },
+    {
+      "track_id": 8,
+      "class_id": 3,
+      "class_name": "M. Rocket Launcher",
+      "first_frame": 310,
+      "last_frame": 485,
+      "first_timestamp": 12.4,
+      "last_timestamp": 19.4,
+      "detection_count": 36,
+      "avg_confidence": 0.83,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 6.06,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 231.23,
+          "y": 329.26,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        },
+        {
+          "x": 224.5,
+          "y": 327.0,
+          "frame_index": 315,
+          "timestamp_sec": 12.6
+        },
+        {
+          "x": 222.23,
+          "y": 326.22,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 215.44,
+          "y": 329.91,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 219.32,
+          "y": 323.91,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 225.35,
+          "y": 323.2,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 220.64,
+          "y": 320.78,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 227.44,
+          "y": 321.0,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 235.1,
+          "y": 319.77,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 235.07,
+          "y": 319.44,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 231.79,
+          "y": 320.91,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 234.7,
+          "y": 320.69,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 232.48,
+          "y": 323.18,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        },
+        {
+          "x": 231.7,
+          "y": 324.1,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        },
+        {
+          "x": 232.2,
+          "y": 325.85,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 227.54,
+          "y": 327.5,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 226.1,
+          "y": 327.96,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 225.49,
+          "y": 328.82,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 226.75,
+          "y": 330.8,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 226.57,
+          "y": 331.26,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 232.59,
+          "y": 327.33,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 231.63,
+          "y": 327.63,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 229.98,
+          "y": 324.45,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 230.5,
+          "y": 322.99,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 232.37,
+          "y": 321.92,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 236.33,
+          "y": 322.24,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 236.73,
+          "y": 321.71,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 236.71,
+          "y": 320.49,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 237.27,
+          "y": 319.82,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 237.72,
+          "y": 320.14,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 237.3,
+          "y": 321.11,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 235.13,
+          "y": 324.31,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 237.4,
+          "y": 327.0,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 234.25,
+          "y": 325.59,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        },
+        {
+          "x": 236.39,
+          "y": 327.05,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 237.1,
+          "y": 327.76,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        }
+      ]
+    },
+    {
+      "track_id": 9,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 310,
+      "last_frame": 325,
+      "first_timestamp": 12.4,
+      "last_timestamp": 13.0,
+      "detection_count": 3,
+      "avg_confidence": 0.3587,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 9.09,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1204.23,
+          "y": 387.37,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        },
+        {
+          "x": 1210.05,
+          "y": 384.64,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 1211.19,
+          "y": 381.53,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        }
+      ]
+    },
+    {
+      "track_id": 10,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 350,
+      "last_frame": 375,
+      "first_timestamp": 14.0,
+      "last_timestamp": 15.0,
+      "detection_count": 4,
+      "avg_confidence": 0.3536,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 10.28,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1214.23,
+          "y": 369.39,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 1214.31,
+          "y": 369.4,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 1214.61,
+          "y": 370.27,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 1220.99,
+          "y": 377.13,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        }
+      ]
+    },
+    {
+      "track_id": 11,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 415,
+      "last_frame": 415,
+      "first_timestamp": 16.6,
+      "last_timestamp": 16.6,
+      "detection_count": 1,
+      "avg_confidence": 0.2561,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1225.39,
+          "y": 383.72,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        }
+      ]
+    },
+    {
+      "track_id": 12,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 435,
+      "last_frame": 495,
+      "first_timestamp": 17.4,
+      "last_timestamp": 19.8,
+      "detection_count": 13,
+      "avg_confidence": 0.4412,
+      "movement_state": "MOVING",
+      "pixel_displacement": 17.39,
+      "trajectory_direction": "South",
+      "trajectory_points": [
+        {
+          "x": 1228.56,
+          "y": 372.91,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 1226.89,
+          "y": 369.57,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 1228.82,
+          "y": 368.75,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 1229.2,
+          "y": 368.77,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 1229.24,
+          "y": 369.42,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 1229.18,
+          "y": 372.76,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 1230.54,
+          "y": 374.65,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 1233.41,
+          "y": 378.91,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 1233.62,
+          "y": 380.39,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        },
+        {
+          "x": 1233.31,
+          "y": 383.41,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 1234.62,
+          "y": 385.76,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        },
+        {
+          "x": 1233.38,
+          "y": 388.3,
+          "frame_index": 490,
+          "timestamp_sec": 19.6
+        },
+        {
+          "x": 1235.13,
+          "y": 389.01,
+          "frame_index": 495,
+          "timestamp_sec": 19.8
+        }
+      ]
+    }
+  ]
+}

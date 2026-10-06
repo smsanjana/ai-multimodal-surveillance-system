@@ -1,0 +1,10 @@
+{
+  "train_time_sec": 8003.026511192322,
+  "model_path": "/Users/sanjana/Documents/ai_p2/data/models/yolov8n_kiit_mita.pt",
+  "model_size_mb": 5.956094741821289,
+  "avg_inference_ms": 68.88370513916016,
+  "precision_all": 0.6461326663112716,
+  "recall_all": 0.6501616301533711,
+  "map50_all": 0.6725707846127705,
+  "map50_95_all": 0.45348512466524044
+}

@@ -1,0 +1,445 @@
+{
+  "audit_title": "STAGE_1_EVALUATION_METRIC_AND_DATASET_AUDIT_REPORT",
+  "evaluation_configuration": {
+    "evaluation_command": "model.val(data='data/datasets/military/KIIT-MiTA/KIIT-MiTA.yml', split='test', conf=0.25, iou=0.50, batch=16, imgsz=640, device='cpu')",
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "imgsz": 640,
+    "batch_size": 16,
+    "device": "cpu",
+    "class_mapping": {
+      "0": "Artilary",
+      "1": "Missile",
+      "2": "Radar",
+      "3": "M. Rocket Launcher",
+      "4": "Soldier",
+      "5": "Tank",
+      "6": "Vehicle"
+    }
+  },
+  "definitions": {
+    "mAP50": "Mean Average Precision calculated across all confidence thresholds (0.0 to 1.0) at IoU >= 0.50. Measures overall confidence-ranking quality.",
+    "Precision_at_0.25": "True Positives / (True Positives + False Positives) evaluated at fixed confidence threshold conf = 0.25.",
+    "Recall_at_0.25": "True Positives / Ground Truth Objects evaluated at fixed confidence threshold conf = 0.25.",
+    "Wrong_Class_Matching": "Ground truth object matched to a prediction of a different class with IoU >= 0.50. Counts as a False Negative for the true GT class and a False Positive for the predicted class."
+  },
+  "reconciled_test_audit": {
+    "split_name": "test",
+    "image_count": 170,
+    "overall_1to1": {
+      "total_ground_truth": 419,
+      "total_true_positives": 307,
+      "total_unmatched_false_negatives": 86,
+      "total_wrong_class_false_negatives": 26,
+      "total_false_negatives": 112,
+      "total_false_positives": 193,
+      "precision_at_0.25": 0.614,
+      "recall_at_0.25": 0.7327,
+      "gt_reconciliation_check": "307 (TP) + 86 (Unmatched FN) + 26 (Wrong-Class FN) = 419 (Equals GT 419: True)"
+    },
+    "per_class_1to1": {
+      "Artilary": {
+        "class_id": 0,
+        "ground_truth_count": 40,
+        "true_positives": 28,
+        "unmatched_false_negatives": 12,
+        "wrong_class_false_negatives": 0,
+        "total_false_negatives": 12,
+        "false_positives": 11,
+        "precision_at_0.25": 0.7179,
+        "recall_at_0.25": 0.7,
+        "map50": 0.5908,
+        "map50_95": 0.3134
+      },
+      "Missile": {
+        "class_id": 1,
+        "ground_truth_count": 36,
+        "true_positives": 19,
+        "unmatched_false_negatives": 9,
+        "wrong_class_false_negatives": 8,
+        "total_false_negatives": 17,
+        "false_positives": 16,
+        "precision_at_0.25": 0.5429,
+        "recall_at_0.25": 0.5278,
+        "map50": 0.5217,
+        "map50_95": 0.3904
+      },
+      "Radar": {
+        "class_id": 2,
+        "ground_truth_count": 34,
+        "true_positives": 20,
+        "unmatched_false_negatives": 9,
+        "wrong_class_false_negatives": 5,
+        "total_false_negatives": 14,
+        "false_positives": 18,
+        "precision_at_0.25": 0.5263,
+        "recall_at_0.25": 0.5882,
+        "map50": 0.3556,
+        "map50_95": 0.2323
+      },
+      "M. Rocket Launcher": {
+        "class_id": 3,
+        "ground_truth_count": 45,
+        "true_positives": 38,
+        "unmatched_false_negatives": 5,
+        "wrong_class_false_negatives": 2,
+        "total_false_negatives": 7,
+        "false_positives": 13,
+        "precision_at_0.25": 0.7451,
+        "recall_at_0.25": 0.8444,
+        "map50": 0.8058,
+        "map50_95": 0.6485
+      },
+      "Soldier": {
+        "class_id": 4,
+        "ground_truth_count": 120,
+        "true_positives": 90,
+        "unmatched_false_negatives": 30,
+        "wrong_class_false_negatives": 0,
+        "total_false_negatives": 30,
+        "false_positives": 76,
+        "precision_at_0.25": 0.5422,
+        "recall_at_0.25": 0.75,
+        "map50": 0.6076,
+        "map50_95": 0.306
+      },
+      "Tank": {
+        "class_id": 5,
+        "ground_truth_count": 58,
+        "true_positives": 46,
+        "unmatched_false_negatives": 8,
+        "wrong_class_false_negatives": 4,
+        "total_false_negatives": 12,
+        "false_positives": 28,
+        "precision_at_0.25": 0.6216,
+        "recall_at_0.25": 0.7931,
+        "map50": 0.7416,
+        "map50_95": 0.4911
+      },
+      "Vehicle": {
+        "class_id": 6,
+        "ground_truth_count": 86,
+        "true_positives": 66,
+        "unmatched_false_negatives": 13,
+        "wrong_class_false_negatives": 7,
+        "total_false_negatives": 20,
+        "false_positives": 31,
+        "precision_at_0.25": 0.6804,
+        "recall_at_0.25": 0.7674,
+        "map50": 0.6838,
+        "map50_95": 0.4921
+      }
+    },
+    "confusion_matrix_1to1": [
+      [
+        28,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        12
+      ],
+      [
+        1,
+        19,
+        2,
+        3,
+        0,
+        1,
+        1,
+        9
+      ],
+      [
+        0,
+        2,
+        20,
+        2,
+        0,
+        1,
+        0,
+        9
+      ],
+      [
+        0,
+        1,
+        1,
+        38,
+        0,
+        0,
+        0,
+        5
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        90,
+        0,
+        0,
+        30
+      ],
+      [
+        0,
+        1,
+        1,
+        0,
+        0,
+        46,
+        2,
+        8
+      ],
+      [
+        0,
+        0,
+        1,
+        2,
+        0,
+        4,
+        66,
+        13
+      ]
+    ],
+    "overall_detector_map": {
+      "ultralytics_precision_b": 0.6681,
+      "ultralytics_recall_b": 0.6521,
+      "map50": 0.6153,
+      "map50_95": 0.4105
+    }
+  },
+  "reconciled_valid_audit": {
+    "split_name": "valid",
+    "image_count": 170,
+    "overall_1to1": {
+      "total_ground_truth": 456,
+      "total_true_positives": 321,
+      "total_unmatched_false_negatives": 94,
+      "total_wrong_class_false_negatives": 41,
+      "total_false_negatives": 135,
+      "total_false_positives": 208,
+      "precision_at_0.25": 0.6068,
+      "recall_at_0.25": 0.7039,
+      "gt_reconciliation_check": "321 (TP) + 94 (Unmatched FN) + 41 (Wrong-Class FN) = 456 (Equals GT 456: True)"
+    },
+    "per_class_1to1": {
+      "Artilary": {
+        "class_id": 0,
+        "ground_truth_count": 26,
+        "true_positives": 19,
+        "unmatched_false_negatives": 7,
+        "wrong_class_false_negatives": 0,
+        "total_false_negatives": 7,
+        "false_positives": 11,
+        "precision_at_0.25": 0.6333,
+        "recall_at_0.25": 0.7308,
+        "map50": 0.7168,
+        "map50_95": 0.3918
+      },
+      "Missile": {
+        "class_id": 1,
+        "ground_truth_count": 44,
+        "true_positives": 29,
+        "unmatched_false_negatives": 9,
+        "wrong_class_false_negatives": 6,
+        "total_false_negatives": 15,
+        "false_positives": 18,
+        "precision_at_0.25": 0.617,
+        "recall_at_0.25": 0.6591,
+        "map50": 0.5652,
+        "map50_95": 0.3878
+      },
+      "Radar": {
+        "class_id": 2,
+        "ground_truth_count": 30,
+        "true_positives": 18,
+        "unmatched_false_negatives": 10,
+        "wrong_class_false_negatives": 2,
+        "total_false_negatives": 12,
+        "false_positives": 16,
+        "precision_at_0.25": 0.5294,
+        "recall_at_0.25": 0.6,
+        "map50": 0.4731,
+        "map50_95": 0.2114
+      },
+      "M. Rocket Launcher": {
+        "class_id": 3,
+        "ground_truth_count": 38,
+        "true_positives": 27,
+        "unmatched_false_negatives": 7,
+        "wrong_class_false_negatives": 4,
+        "total_false_negatives": 11,
+        "false_positives": 12,
+        "precision_at_0.25": 0.6923,
+        "recall_at_0.25": 0.7105,
+        "map50": 0.5927,
+        "map50_95": 0.4973
+      },
+      "Soldier": {
+        "class_id": 4,
+        "ground_truth_count": 108,
+        "true_positives": 70,
+        "unmatched_false_negatives": 36,
+        "wrong_class_false_negatives": 2,
+        "total_false_negatives": 38,
+        "false_positives": 63,
+        "precision_at_0.25": 0.5263,
+        "recall_at_0.25": 0.6481,
+        "map50": 0.4975,
+        "map50_95": 0.2836
+      },
+      "Tank": {
+        "class_id": 5,
+        "ground_truth_count": 94,
+        "true_positives": 82,
+        "unmatched_false_negatives": 7,
+        "wrong_class_false_negatives": 5,
+        "total_false_negatives": 12,
+        "false_positives": 43,
+        "precision_at_0.25": 0.656,
+        "recall_at_0.25": 0.8723,
+        "map50": 0.75,
+        "map50_95": 0.5055
+      },
+      "Vehicle": {
+        "class_id": 6,
+        "ground_truth_count": 116,
+        "true_positives": 76,
+        "unmatched_false_negatives": 18,
+        "wrong_class_false_negatives": 22,
+        "total_false_negatives": 40,
+        "false_positives": 45,
+        "precision_at_0.25": 0.6281,
+        "recall_at_0.25": 0.6552,
+        "map50": 0.6075,
+        "map50_95": 0.4166
+      }
+    },
+    "confusion_matrix_1to1": [
+      [
+        19,
+        0,
+        0,
+        0,
+        0,
+        0,
+        0,
+        7
+      ],
+      [
+        1,
+        29,
+        1,
+        4,
+        0,
+        0,
+        0,
+        9
+      ],
+      [
+        0,
+        1,
+        18,
+        0,
+        0,
+        0,
+        1,
+        10
+      ],
+      [
+        0,
+        3,
+        0,
+        27,
+        0,
+        0,
+        1,
+        7
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        70,
+        0,
+        2,
+        36
+      ],
+      [
+        0,
+        0,
+        0,
+        0,
+        0,
+        82,
+        5,
+        7
+      ],
+      [
+        2,
+        3,
+        0,
+        2,
+        0,
+        15,
+        76,
+        18
+      ]
+    ],
+    "overall_detector_map": {
+      "ultralytics_precision_b": 0.6957,
+      "ultralytics_recall_b": 0.6428,
+      "map50": 0.6004,
+      "map50_95": 0.3849
+    }
+  },
+  "cleaned_dataset_disk_verification": {
+    "train": {
+      "image_count": 1341,
+      "label_file_count": 1341,
+      "missing_pairings": 0,
+      "total_objects": 3616,
+      "per_class_objects": {
+        "Artilary": 231,
+        "Missile": 367,
+        "Radar": 223,
+        "M. Rocket Launcher": 297,
+        "Soldier": 898,
+        "Tank": 667,
+        "Vehicle": 933
+      }
+    },
+    "valid": {
+      "image_count": 170,
+      "label_file_count": 170,
+      "missing_pairings": 0,
+      "total_objects": 456,
+      "per_class_objects": {
+        "Artilary": 26,
+        "Missile": 44,
+        "Radar": 30,
+        "M. Rocket Launcher": 38,
+        "Soldier": 108,
+        "Tank": 94,
+        "Vehicle": 116
+      }
+    },
+    "test": {
+      "image_count": 170,
+      "label_file_count": 170,
+      "missing_pairings": 0,
+      "total_objects": 419,
+      "per_class_objects": {
+        "Artilary": 40,
+        "Missile": 36,
+        "Radar": 34,
+        "M. Rocket Launcher": 45,
+        "Soldier": 120,
+        "Tank": 58,
+        "Vehicle": 86
+      }
+    }
+  }
+}

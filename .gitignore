@@ -1,0 +1,48 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.pyc
+*$py.class
+
+# Caches
+.pytest_cache/
+.ruff_cache/
+.mypy_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+ENV/
+
+# Operating System / IDE files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Database and Runtime Artifacts
+*.db
+*.sqlite
+data/surveillance.db
+data/temp/*
+!data/temp/.gitkeep
+
+# Ultralytics Training Run Artifacts
+runs/
+
+# Large Raw Datasets (Preserve dataset configuration .yml and metadata)
+data/datasets/video/
+data/datasets/military/KIIT-MiTA/train/
+data/datasets/military/KIIT-MiTA/valid/
+data/datasets/military/KIIT-MiTA/test/
+data/datasets/military/KIIT-MiTA_cleaned/train/
+data/datasets/military/KIIT-MiTA_cleaned/valid/
+data/datasets/military/KIIT-MiTA_cleaned/test/
+!data/datasets/military/**/KIIT-MiTA.yml
+!data/datasets/military/**/*.md
+!data/datasets/military/**/*.txt
+
+# Environment files
+.env
+.env.local
+.env.*.local

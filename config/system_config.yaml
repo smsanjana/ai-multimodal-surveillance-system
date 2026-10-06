@@ -1,0 +1,52 @@
+# System Configuration Specification
+# AI-Based Multimodal Surveillance System for Threat Detection and Decision Support
+
+app:
+  name: "AI Surveillance Command Center"
+  version: "1.0.0"
+  environment: "development"
+  debug: true
+
+ai:
+  model_path: "data/models/yolov8n_kiit_mita.pt"
+  confidence_threshold: 0.25
+  iou_threshold: 0.50
+  device: "cpu"
+
+video:
+  sample_frame_rate: 5
+  target_sample_fps: 5
+  max_duration_seconds: 120
+  max_processing_duration_sec: 120
+  tracker_iou_threshold: 0.30
+  tracker_max_missed_frames: 2
+  movement_pixel_threshold: 15.0
+  target_width: 1280
+  target_height: 720
+
+threat:
+  weights:
+    class_score: 0.30
+    count_score: 0.20
+    zone_violation: 0.35
+    motion_speed: 0.15
+  thresholds:
+    medium: 25.0
+    high: 50.0
+    critical: 75.0
+
+database:
+  db_path: "data/surveillance.db"
+
+analyst:
+  default_id: "OPERATOR_01"
+
+logging:
+  level: "INFO"
+  log_file: "logs/surveillance.log"
+  format: "%(asctime)s - %(name)s - %(levelname)s - %(message)s"
+
+theme:
+  mode: "dark"
+  primary_color: "#1F2937"
+  accent_color: "#10B981"

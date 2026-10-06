@@ -1,0 +1,3025 @@
+{
+  "analysis_id": "c2955ba3-0304-4788-aa48-9ed917c2e972",
+  "tracks": [
+    {
+      "track_id": 1,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 0,
+      "last_frame": 495,
+      "first_timestamp": 0.0,
+      "last_timestamp": 19.8,
+      "detection_count": 100,
+      "avg_confidence": 0.7438,
+      "movement_state": "MOVING",
+      "pixel_displacement": 74.93,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 36.73,
+          "y": 493.64,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 36.37,
+          "y": 495.01,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 36.48,
+          "y": 497.49,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 39.53,
+          "y": 500.7,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        },
+        {
+          "x": 39.72,
+          "y": 499.53,
+          "frame_index": 20,
+          "timestamp_sec": 0.8
+        },
+        {
+          "x": 40.27,
+          "y": 499.48,
+          "frame_index": 25,
+          "timestamp_sec": 1.0
+        },
+        {
+          "x": 40.27,
+          "y": 499.48,
+          "frame_index": 30,
+          "timestamp_sec": 1.2
+        },
+        {
+          "x": 38.41,
+          "y": 500.25,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        },
+        {
+          "x": 37.91,
+          "y": 497.04,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        },
+        {
+          "x": 38.51,
+          "y": 495.52,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 39.04,
+          "y": 491.77,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        },
+        {
+          "x": 40.45,
+          "y": 485.99,
+          "frame_index": 55,
+          "timestamp_sec": 2.2
+        },
+        {
+          "x": 42.38,
+          "y": 484.67,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 41.27,
+          "y": 484.28,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 41.28,
+          "y": 483.97,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 42.11,
+          "y": 483.78,
+          "frame_index": 75,
+          "timestamp_sec": 3.0
+        },
+        {
+          "x": 44.15,
+          "y": 484.86,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 44.91,
+          "y": 486.69,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 44.31,
+          "y": 490.64,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 44.28,
+          "y": 493.05,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 43.17,
+          "y": 496.55,
+          "frame_index": 100,
+          "timestamp_sec": 4.0
+        },
+        {
+          "x": 44.51,
+          "y": 500.31,
+          "frame_index": 105,
+          "timestamp_sec": 4.2
+        },
+        {
+          "x": 48.87,
+          "y": 500.99,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 50.53,
+          "y": 500.82,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 47.79,
+          "y": 501.16,
+          "frame_index": 120,
+          "timestamp_sec": 4.8
+        },
+        {
+          "x": 46.92,
+          "y": 501.51,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 45.39,
+          "y": 499.88,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        },
+        {
+          "x": 46.43,
+          "y": 497.64,
+          "frame_index": 135,
+          "timestamp_sec": 5.4
+        },
+        {
+          "x": 51.05,
+          "y": 493.56,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 49.44,
+          "y": 490.53,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 53.73,
+          "y": 486.29,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 57.0,
+          "y": 484.77,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 55.59,
+          "y": 482.37,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 56.19,
+          "y": 482.17,
+          "frame_index": 165,
+          "timestamp_sec": 6.6
+        },
+        {
+          "x": 59.9,
+          "y": 483.39,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 62.05,
+          "y": 485.11,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 62.44,
+          "y": 486.3,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        },
+        {
+          "x": 62.52,
+          "y": 490.17,
+          "frame_index": 185,
+          "timestamp_sec": 7.4
+        },
+        {
+          "x": 62.37,
+          "y": 494.22,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        },
+        {
+          "x": 61.92,
+          "y": 497.17,
+          "frame_index": 195,
+          "timestamp_sec": 7.8
+        },
+        {
+          "x": 63.78,
+          "y": 499.56,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        },
+        {
+          "x": 66.66,
+          "y": 500.98,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 67.03,
+          "y": 500.79,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 68.46,
+          "y": 500.81,
+          "frame_index": 215,
+          "timestamp_sec": 8.6
+        },
+        {
+          "x": 66.46,
+          "y": 500.09,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        },
+        {
+          "x": 65.68,
+          "y": 498.27,
+          "frame_index": 225,
+          "timestamp_sec": 9.0
+        },
+        {
+          "x": 65.6,
+          "y": 496.33,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        },
+        {
+          "x": 67.63,
+          "y": 493.01,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 69.96,
+          "y": 488.72,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 71.3,
+          "y": 485.42,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 73.97,
+          "y": 484.14,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 72.75,
+          "y": 483.14,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 73.41,
+          "y": 483.21,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 74.89,
+          "y": 483.05,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 75.33,
+          "y": 484.98,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 75.94,
+          "y": 487.19,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        },
+        {
+          "x": 73.81,
+          "y": 490.7,
+          "frame_index": 280,
+          "timestamp_sec": 11.2
+        },
+        {
+          "x": 75.74,
+          "y": 493.96,
+          "frame_index": 285,
+          "timestamp_sec": 11.4
+        },
+        {
+          "x": 75.2,
+          "y": 497.6,
+          "frame_index": 290,
+          "timestamp_sec": 11.6
+        },
+        {
+          "x": 78.07,
+          "y": 500.65,
+          "frame_index": 295,
+          "timestamp_sec": 11.8
+        },
+        {
+          "x": 78.95,
+          "y": 501.51,
+          "frame_index": 300,
+          "timestamp_sec": 12.0
+        },
+        {
+          "x": 78.96,
+          "y": 501.5,
+          "frame_index": 305,
+          "timestamp_sec": 12.2
+        },
+        {
+          "x": 80.85,
+          "y": 501.34,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        },
+        {
+          "x": 82.15,
+          "y": 500.93,
+          "frame_index": 315,
+          "timestamp_sec": 12.6
+        },
+        {
+          "x": 79.09,
+          "y": 498.81,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 80.11,
+          "y": 496.15,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 79.64,
+          "y": 494.01,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 81.17,
+          "y": 488.34,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 86.58,
+          "y": 484.49,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 84.39,
+          "y": 483.73,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 86.6,
+          "y": 483.06,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 86.62,
+          "y": 483.02,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 87.9,
+          "y": 483.09,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 93.49,
+          "y": 484.15,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 84.22,
+          "y": 487.01,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        },
+        {
+          "x": 92.68,
+          "y": 490.37,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        },
+        {
+          "x": 89.27,
+          "y": 494.33,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 92.4,
+          "y": 499.67,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 94.7,
+          "y": 499.99,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 97.0,
+          "y": 500.73,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 97.81,
+          "y": 500.46,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 97.81,
+          "y": 500.46,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 99.88,
+          "y": 500.62,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 97.2,
+          "y": 497.82,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 96.41,
+          "y": 494.77,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 98.01,
+          "y": 492.81,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 98.56,
+          "y": 487.69,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 103.78,
+          "y": 484.9,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 105.22,
+          "y": 483.9,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 102.61,
+          "y": 483.6,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 103.25,
+          "y": 483.14,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 105.16,
+          "y": 484.0,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 106.96,
+          "y": 485.1,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 105.68,
+          "y": 486.33,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 103.21,
+          "y": 491.15,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 105.91,
+          "y": 494.85,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        },
+        {
+          "x": 105.9,
+          "y": 498.15,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 107.22,
+          "y": 501.37,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        },
+        {
+          "x": 110.43,
+          "y": 500.49,
+          "frame_index": 490,
+          "timestamp_sec": 19.6
+        },
+        {
+          "x": 111.22,
+          "y": 501.72,
+          "frame_index": 495,
+          "timestamp_sec": 19.8
+        }
+      ]
+    },
+    {
+      "track_id": 2,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 0,
+      "last_frame": 95,
+      "first_timestamp": 0.0,
+      "last_timestamp": 3.8,
+      "detection_count": 18,
+      "avg_confidence": 0.3972,
+      "movement_state": "MOVING",
+      "pixel_displacement": 17.65,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 163.86,
+          "y": 392.55,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 165.61,
+          "y": 393.76,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 166.15,
+          "y": 397.51,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 167.65,
+          "y": 399.44,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        },
+        {
+          "x": 170.66,
+          "y": 400.64,
+          "frame_index": 20,
+          "timestamp_sec": 0.8
+        },
+        {
+          "x": 172.01,
+          "y": 400.45,
+          "frame_index": 25,
+          "timestamp_sec": 1.0
+        },
+        {
+          "x": 172.0,
+          "y": 400.45,
+          "frame_index": 30,
+          "timestamp_sec": 1.2
+        },
+        {
+          "x": 170.32,
+          "y": 398.34,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        },
+        {
+          "x": 175.16,
+          "y": 391.54,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 175.78,
+          "y": 390.33,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        },
+        {
+          "x": 176.45,
+          "y": 385.94,
+          "frame_index": 55,
+          "timestamp_sec": 2.2
+        },
+        {
+          "x": 176.98,
+          "y": 384.34,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 180.5,
+          "y": 381.34,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 180.47,
+          "y": 381.78,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 179.7,
+          "y": 383.07,
+          "frame_index": 75,
+          "timestamp_sec": 3.0
+        },
+        {
+          "x": 183.87,
+          "y": 382.75,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 181.73,
+          "y": 386.77,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 181.39,
+          "y": 390.52,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        }
+      ]
+    },
+    {
+      "track_id": 3,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 0,
+      "last_frame": 495,
+      "first_timestamp": 0.0,
+      "last_timestamp": 19.8,
+      "detection_count": 100,
+      "avg_confidence": 0.5801,
+      "movement_state": "MOVING",
+      "pixel_displacement": 77.33,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 459.82,
+          "y": 447.84,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 457.58,
+          "y": 449.25,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 458.67,
+          "y": 451.89,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 460.67,
+          "y": 453.43,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        },
+        {
+          "x": 464.82,
+          "y": 455.62,
+          "frame_index": 20,
+          "timestamp_sec": 0.8
+        },
+        {
+          "x": 466.5,
+          "y": 455.74,
+          "frame_index": 25,
+          "timestamp_sec": 1.0
+        },
+        {
+          "x": 466.49,
+          "y": 455.75,
+          "frame_index": 30,
+          "timestamp_sec": 1.2
+        },
+        {
+          "x": 465.39,
+          "y": 453.49,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        },
+        {
+          "x": 462.77,
+          "y": 450.26,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        },
+        {
+          "x": 464.92,
+          "y": 447.92,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 467.52,
+          "y": 446.47,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        },
+        {
+          "x": 468.31,
+          "y": 440.66,
+          "frame_index": 55,
+          "timestamp_sec": 2.2
+        },
+        {
+          "x": 469.39,
+          "y": 438.21,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 469.3,
+          "y": 435.75,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 470.45,
+          "y": 435.72,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 473.95,
+          "y": 435.07,
+          "frame_index": 75,
+          "timestamp_sec": 3.0
+        },
+        {
+          "x": 473.21,
+          "y": 437.07,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 475.29,
+          "y": 440.78,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 475.15,
+          "y": 446.18,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 474.22,
+          "y": 446.61,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 471.65,
+          "y": 449.79,
+          "frame_index": 100,
+          "timestamp_sec": 4.0
+        },
+        {
+          "x": 472.78,
+          "y": 452.52,
+          "frame_index": 105,
+          "timestamp_sec": 4.2
+        },
+        {
+          "x": 471.74,
+          "y": 454.1,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 473.15,
+          "y": 454.86,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 476.96,
+          "y": 454.99,
+          "frame_index": 120,
+          "timestamp_sec": 4.8
+        },
+        {
+          "x": 479.22,
+          "y": 454.1,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 474.33,
+          "y": 451.39,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        },
+        {
+          "x": 475.21,
+          "y": 450.05,
+          "frame_index": 135,
+          "timestamp_sec": 5.4
+        },
+        {
+          "x": 479.34,
+          "y": 447.5,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 484.29,
+          "y": 444.64,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 484.06,
+          "y": 441.47,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 485.31,
+          "y": 438.63,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 486.98,
+          "y": 436.71,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 488.58,
+          "y": 436.96,
+          "frame_index": 165,
+          "timestamp_sec": 6.6
+        },
+        {
+          "x": 489.35,
+          "y": 434.76,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 490.49,
+          "y": 437.14,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 492.93,
+          "y": 441.43,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        },
+        {
+          "x": 491.83,
+          "y": 443.69,
+          "frame_index": 185,
+          "timestamp_sec": 7.4
+        },
+        {
+          "x": 489.18,
+          "y": 447.65,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        },
+        {
+          "x": 487.64,
+          "y": 450.29,
+          "frame_index": 195,
+          "timestamp_sec": 7.8
+        },
+        {
+          "x": 492.53,
+          "y": 451.09,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        },
+        {
+          "x": 494.53,
+          "y": 454.74,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 497.25,
+          "y": 456.69,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 498.58,
+          "y": 455.97,
+          "frame_index": 215,
+          "timestamp_sec": 8.6
+        },
+        {
+          "x": 495.91,
+          "y": 454.44,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        },
+        {
+          "x": 494.78,
+          "y": 451.8,
+          "frame_index": 225,
+          "timestamp_sec": 9.0
+        },
+        {
+          "x": 494.03,
+          "y": 449.71,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        },
+        {
+          "x": 497.73,
+          "y": 447.45,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 496.83,
+          "y": 444.83,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 499.92,
+          "y": 441.58,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 502.28,
+          "y": 435.8,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 501.89,
+          "y": 434.61,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 499.1,
+          "y": 435.06,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 500.03,
+          "y": 435.07,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 505.63,
+          "y": 436.53,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 506.73,
+          "y": 441.25,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        },
+        {
+          "x": 505.07,
+          "y": 445.4,
+          "frame_index": 280,
+          "timestamp_sec": 11.2
+        },
+        {
+          "x": 501.26,
+          "y": 447.71,
+          "frame_index": 285,
+          "timestamp_sec": 11.4
+        },
+        {
+          "x": 501.64,
+          "y": 450.83,
+          "frame_index": 290,
+          "timestamp_sec": 11.6
+        },
+        {
+          "x": 503.31,
+          "y": 452.98,
+          "frame_index": 295,
+          "timestamp_sec": 11.8
+        },
+        {
+          "x": 505.19,
+          "y": 454.58,
+          "frame_index": 300,
+          "timestamp_sec": 12.0
+        },
+        {
+          "x": 505.21,
+          "y": 454.57,
+          "frame_index": 305,
+          "timestamp_sec": 12.2
+        },
+        {
+          "x": 506.75,
+          "y": 455.24,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        },
+        {
+          "x": 504.3,
+          "y": 453.45,
+          "frame_index": 315,
+          "timestamp_sec": 12.6
+        },
+        {
+          "x": 505.72,
+          "y": 451.49,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 507.9,
+          "y": 449.48,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 510.87,
+          "y": 448.04,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 516.3,
+          "y": 445.28,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 515.6,
+          "y": 440.86,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 516.69,
+          "y": 437.15,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 517.86,
+          "y": 436.25,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 517.84,
+          "y": 436.24,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 519.11,
+          "y": 436.69,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 518.97,
+          "y": 438.52,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 521.88,
+          "y": 440.23,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        },
+        {
+          "x": 521.26,
+          "y": 444.8,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        },
+        {
+          "x": 518.92,
+          "y": 447.02,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 520.77,
+          "y": 451.16,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 522.46,
+          "y": 453.02,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 523.61,
+          "y": 454.85,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 524.66,
+          "y": 454.9,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 524.65,
+          "y": 454.91,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 528.46,
+          "y": 454.18,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 522.58,
+          "y": 450.85,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 528.22,
+          "y": 449.07,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 529.26,
+          "y": 447.66,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 532.71,
+          "y": 443.03,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 534.44,
+          "y": 438.94,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 531.48,
+          "y": 435.99,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 530.37,
+          "y": 434.62,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 530.78,
+          "y": 434.73,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 534.27,
+          "y": 435.72,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 531.27,
+          "y": 438.86,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 536.07,
+          "y": 439.46,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 535.93,
+          "y": 446.8,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 534.27,
+          "y": 448.75,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        },
+        {
+          "x": 535.63,
+          "y": 451.6,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 534.85,
+          "y": 453.29,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        },
+        {
+          "x": 535.35,
+          "y": 454.78,
+          "frame_index": 490,
+          "timestamp_sec": 19.6
+        },
+        {
+          "x": 536.94,
+          "y": 453.58,
+          "frame_index": 495,
+          "timestamp_sec": 19.8
+        }
+      ]
+    },
+    {
+      "track_id": 4,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 0,
+      "last_frame": 50,
+      "first_timestamp": 0.0,
+      "last_timestamp": 2.0,
+      "detection_count": 11,
+      "avg_confidence": 0.4888,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 5.88,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 587.71,
+          "y": 389.8,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 586.82,
+          "y": 393.54,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 588.82,
+          "y": 397.2,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 589.99,
+          "y": 398.26,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        },
+        {
+          "x": 590.57,
+          "y": 398.73,
+          "frame_index": 20,
+          "timestamp_sec": 0.8
+        },
+        {
+          "x": 591.81,
+          "y": 398.93,
+          "frame_index": 25,
+          "timestamp_sec": 1.0
+        },
+        {
+          "x": 591.81,
+          "y": 398.92,
+          "frame_index": 30,
+          "timestamp_sec": 1.2
+        },
+        {
+          "x": 592.86,
+          "y": 397.19,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        },
+        {
+          "x": 594.06,
+          "y": 394.36,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        },
+        {
+          "x": 594.82,
+          "y": 391.19,
+          "frame_index": 45,
+          "timestamp_sec": 1.8
+        },
+        {
+          "x": 593.54,
+          "y": 389.05,
+          "frame_index": 50,
+          "timestamp_sec": 2.0
+        }
+      ]
+    },
+    {
+      "track_id": 5,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 0,
+      "last_frame": 15,
+      "first_timestamp": 0.0,
+      "last_timestamp": 0.6,
+      "detection_count": 4,
+      "avg_confidence": 0.3638,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 8.09,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1063.51,
+          "y": 232.78,
+          "frame_index": 0,
+          "timestamp_sec": 0.0
+        },
+        {
+          "x": 1064.32,
+          "y": 236.13,
+          "frame_index": 5,
+          "timestamp_sec": 0.2
+        },
+        {
+          "x": 1065.63,
+          "y": 238.59,
+          "frame_index": 10,
+          "timestamp_sec": 0.4
+        },
+        {
+          "x": 1065.63,
+          "y": 240.59,
+          "frame_index": 15,
+          "timestamp_sec": 0.6
+        }
+      ]
+    },
+    {
+      "track_id": 6,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 35,
+      "last_frame": 35,
+      "first_timestamp": 1.4,
+      "last_timestamp": 1.4,
+      "detection_count": 1,
+      "avg_confidence": 0.2825,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 859.04,
+          "y": 182.51,
+          "frame_index": 35,
+          "timestamp_sec": 1.4
+        }
+      ]
+    },
+    {
+      "track_id": 7,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 40,
+      "last_frame": 40,
+      "first_timestamp": 1.6,
+      "last_timestamp": 1.6,
+      "detection_count": 1,
+      "avg_confidence": 0.2999,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1069.73,
+          "y": 237.13,
+          "frame_index": 40,
+          "timestamp_sec": 1.6
+        }
+      ]
+    },
+    {
+      "track_id": 8,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 60,
+      "last_frame": 125,
+      "first_timestamp": 2.4,
+      "last_timestamp": 5.0,
+      "detection_count": 10,
+      "avg_confidence": 0.312,
+      "movement_state": "MOVING",
+      "pixel_displacement": 17.71,
+      "trajectory_direction": "South-East",
+      "trajectory_points": [
+        {
+          "x": 1073.25,
+          "y": 225.72,
+          "frame_index": 60,
+          "timestamp_sec": 2.4
+        },
+        {
+          "x": 1072.91,
+          "y": 224.29,
+          "frame_index": 65,
+          "timestamp_sec": 2.6
+        },
+        {
+          "x": 1073.92,
+          "y": 224.29,
+          "frame_index": 70,
+          "timestamp_sec": 2.8
+        },
+        {
+          "x": 1074.27,
+          "y": 225.02,
+          "frame_index": 80,
+          "timestamp_sec": 3.2
+        },
+        {
+          "x": 1076.11,
+          "y": 228.06,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 1078.12,
+          "y": 231.21,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 1078.74,
+          "y": 231.96,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 1080.19,
+          "y": 238.28,
+          "frame_index": 105,
+          "timestamp_sec": 4.2
+        },
+        {
+          "x": 1080.34,
+          "y": 240.48,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 1083.04,
+          "y": 240.48,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        }
+      ]
+    },
+    {
+      "track_id": 9,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 85,
+      "last_frame": 115,
+      "first_timestamp": 3.4,
+      "last_timestamp": 4.6,
+      "detection_count": 5,
+      "avg_confidence": 0.3687,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 14.52,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 598.15,
+          "y": 385.56,
+          "frame_index": 85,
+          "timestamp_sec": 3.4
+        },
+        {
+          "x": 600.13,
+          "y": 387.95,
+          "frame_index": 90,
+          "timestamp_sec": 3.6
+        },
+        {
+          "x": 600.32,
+          "y": 389.82,
+          "frame_index": 95,
+          "timestamp_sec": 3.8
+        },
+        {
+          "x": 601.0,
+          "y": 398.46,
+          "frame_index": 110,
+          "timestamp_sec": 4.4
+        },
+        {
+          "x": 602.0,
+          "y": 399.56,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        }
+      ]
+    },
+    {
+      "track_id": 10,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 115,
+      "last_frame": 160,
+      "first_timestamp": 4.6,
+      "last_timestamp": 6.4,
+      "detection_count": 9,
+      "avg_confidence": 0.3641,
+      "movement_state": "MOVING",
+      "pixel_displacement": 19.25,
+      "trajectory_direction": "North",
+      "trajectory_points": [
+        {
+          "x": 655.95,
+          "y": 343.95,
+          "frame_index": 115,
+          "timestamp_sec": 4.6
+        },
+        {
+          "x": 656.77,
+          "y": 343.62,
+          "frame_index": 120,
+          "timestamp_sec": 4.8
+        },
+        {
+          "x": 657.03,
+          "y": 342.55,
+          "frame_index": 125,
+          "timestamp_sec": 5.0
+        },
+        {
+          "x": 657.46,
+          "y": 340.59,
+          "frame_index": 130,
+          "timestamp_sec": 5.2
+        },
+        {
+          "x": 658.17,
+          "y": 339.36,
+          "frame_index": 135,
+          "timestamp_sec": 5.4
+        },
+        {
+          "x": 659.84,
+          "y": 336.27,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 660.07,
+          "y": 334.21,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 659.94,
+          "y": 327.99,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 661.46,
+          "y": 325.51,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        }
+      ]
+    },
+    {
+      "track_id": 11,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 140,
+      "last_frame": 280,
+      "first_timestamp": 5.6,
+      "last_timestamp": 11.2,
+      "detection_count": 26,
+      "avg_confidence": 0.3703,
+      "movement_state": "MOVING",
+      "pixel_displacement": 18.61,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 192.58,
+          "y": 390.1,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 190.18,
+          "y": 389.34,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 191.49,
+          "y": 386.4,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 193.79,
+          "y": 383.95,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 195.34,
+          "y": 382.01,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 194.9,
+          "y": 381.7,
+          "frame_index": 165,
+          "timestamp_sec": 6.6
+        },
+        {
+          "x": 195.74,
+          "y": 381.73,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 201.58,
+          "y": 383.97,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 196.03,
+          "y": 387.14,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        },
+        {
+          "x": 195.4,
+          "y": 392.14,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        },
+        {
+          "x": 198.01,
+          "y": 395.47,
+          "frame_index": 195,
+          "timestamp_sec": 7.8
+        },
+        {
+          "x": 197.06,
+          "y": 397.43,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        },
+        {
+          "x": 197.73,
+          "y": 399.85,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 199.58,
+          "y": 401.18,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 200.23,
+          "y": 401.21,
+          "frame_index": 215,
+          "timestamp_sec": 8.6
+        },
+        {
+          "x": 202.31,
+          "y": 394.84,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        },
+        {
+          "x": 205.34,
+          "y": 391.15,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 205.18,
+          "y": 389.37,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 207.34,
+          "y": 386.16,
+          "frame_index": 245,
+          "timestamp_sec": 9.8
+        },
+        {
+          "x": 207.93,
+          "y": 383.3,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 208.43,
+          "y": 383.24,
+          "frame_index": 255,
+          "timestamp_sec": 10.2
+        },
+        {
+          "x": 209.49,
+          "y": 383.12,
+          "frame_index": 260,
+          "timestamp_sec": 10.4
+        },
+        {
+          "x": 211.41,
+          "y": 381.71,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 211.83,
+          "y": 384.24,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 212.17,
+          "y": 387.36,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        },
+        {
+          "x": 211.18,
+          "y": 389.6,
+          "frame_index": 280,
+          "timestamp_sec": 11.2
+        }
+      ]
+    },
+    {
+      "track_id": 12,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 140,
+      "last_frame": 160,
+      "first_timestamp": 5.6,
+      "last_timestamp": 6.4,
+      "detection_count": 4,
+      "avg_confidence": 0.3715,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 8.48,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 606.39,
+          "y": 390.17,
+          "frame_index": 140,
+          "timestamp_sec": 5.6
+        },
+        {
+          "x": 606.62,
+          "y": 388.99,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 607.28,
+          "y": 384.32,
+          "frame_index": 155,
+          "timestamp_sec": 6.2
+        },
+        {
+          "x": 607.54,
+          "y": 381.77,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        }
+      ]
+    },
+    {
+      "track_id": 13,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 145,
+      "last_frame": 180,
+      "first_timestamp": 5.8,
+      "last_timestamp": 7.2,
+      "detection_count": 6,
+      "avg_confidence": 0.3584,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 4.41,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1087.55,
+          "y": 229.77,
+          "frame_index": 145,
+          "timestamp_sec": 5.8
+        },
+        {
+          "x": 1088.98,
+          "y": 227.25,
+          "frame_index": 150,
+          "timestamp_sec": 6.0
+        },
+        {
+          "x": 1088.42,
+          "y": 223.84,
+          "frame_index": 160,
+          "timestamp_sec": 6.4
+        },
+        {
+          "x": 1090.4,
+          "y": 224.35,
+          "frame_index": 170,
+          "timestamp_sec": 6.8
+        },
+        {
+          "x": 1091.31,
+          "y": 226.01,
+          "frame_index": 175,
+          "timestamp_sec": 7.0
+        },
+        {
+          "x": 1091.56,
+          "y": 227.94,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        }
+      ]
+    },
+    {
+      "track_id": 14,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 180,
+      "last_frame": 180,
+      "first_timestamp": 7.2,
+      "last_timestamp": 7.2,
+      "detection_count": 1,
+      "avg_confidence": 0.253,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 611.0,
+          "y": 384.81,
+          "frame_index": 180,
+          "timestamp_sec": 7.2
+        }
+      ]
+    },
+    {
+      "track_id": 15,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 190,
+      "last_frame": 190,
+      "first_timestamp": 7.6,
+      "last_timestamp": 7.6,
+      "detection_count": 1,
+      "avg_confidence": 0.2512,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 666.33,
+          "y": 337.64,
+          "frame_index": 190,
+          "timestamp_sec": 7.6
+        }
+      ]
+    },
+    {
+      "track_id": 16,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 200,
+      "last_frame": 200,
+      "first_timestamp": 8.0,
+      "last_timestamp": 8.0,
+      "detection_count": 1,
+      "avg_confidence": 0.2505,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1096.41,
+          "y": 238.26,
+          "frame_index": 200,
+          "timestamp_sec": 8.0
+        }
+      ]
+    },
+    {
+      "track_id": 17,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 205,
+      "last_frame": 240,
+      "first_timestamp": 8.2,
+      "last_timestamp": 9.6,
+      "detection_count": 7,
+      "avg_confidence": 0.3856,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 11.29,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 615.03,
+          "y": 398.51,
+          "frame_index": 205,
+          "timestamp_sec": 8.2
+        },
+        {
+          "x": 616.14,
+          "y": 398.42,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 616.82,
+          "y": 397.8,
+          "frame_index": 215,
+          "timestamp_sec": 8.6
+        },
+        {
+          "x": 617.52,
+          "y": 397.51,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        },
+        {
+          "x": 617.63,
+          "y": 395.19,
+          "frame_index": 225,
+          "timestamp_sec": 9.0
+        },
+        {
+          "x": 616.27,
+          "y": 389.04,
+          "frame_index": 235,
+          "timestamp_sec": 9.4
+        },
+        {
+          "x": 616.73,
+          "y": 387.35,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        }
+      ]
+    },
+    {
+      "track_id": 18,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 210,
+      "last_frame": 220,
+      "first_timestamp": 8.4,
+      "last_timestamp": 8.8,
+      "detection_count": 3,
+      "avg_confidence": 0.2901,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 3.68,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1044.46,
+          "y": 90.6,
+          "frame_index": 210,
+          "timestamp_sec": 8.4
+        },
+        {
+          "x": 1045.58,
+          "y": 90.64,
+          "frame_index": 215,
+          "timestamp_sec": 8.6
+        },
+        {
+          "x": 1047.42,
+          "y": 88.42,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        }
+      ]
+    },
+    {
+      "track_id": 19,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 220,
+      "last_frame": 220,
+      "first_timestamp": 8.8,
+      "last_timestamp": 8.8,
+      "detection_count": 1,
+      "avg_confidence": 0.3779,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1098.64,
+          "y": 240.36,
+          "frame_index": 220,
+          "timestamp_sec": 8.8
+        }
+      ]
+    },
+    {
+      "track_id": 20,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 230,
+      "last_frame": 230,
+      "first_timestamp": 9.2,
+      "last_timestamp": 9.2,
+      "detection_count": 1,
+      "avg_confidence": 0.4389,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 357.91,
+          "y": 370.17,
+          "frame_index": 230,
+          "timestamp_sec": 9.2
+        }
+      ]
+    },
+    {
+      "track_id": 21,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 240,
+      "last_frame": 250,
+      "first_timestamp": 9.6,
+      "last_timestamp": 10.0,
+      "detection_count": 2,
+      "avg_confidence": 0.3089,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 8.8,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 674.53,
+          "y": 335.29,
+          "frame_index": 240,
+          "timestamp_sec": 9.6
+        },
+        {
+          "x": 675.79,
+          "y": 326.58,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        }
+      ]
+    },
+    {
+      "track_id": 22,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 250,
+      "last_frame": 275,
+      "first_timestamp": 10.0,
+      "last_timestamp": 11.0,
+      "detection_count": 4,
+      "avg_confidence": 0.3375,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 6.15,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1103.95,
+          "y": 224.73,
+          "frame_index": 250,
+          "timestamp_sec": 10.0
+        },
+        {
+          "x": 1105.15,
+          "y": 224.54,
+          "frame_index": 265,
+          "timestamp_sec": 10.6
+        },
+        {
+          "x": 1106.55,
+          "y": 226.15,
+          "frame_index": 270,
+          "timestamp_sec": 10.8
+        },
+        {
+          "x": 1107.56,
+          "y": 229.71,
+          "frame_index": 275,
+          "timestamp_sec": 11.0
+        }
+      ]
+    },
+    {
+      "track_id": 23,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 295,
+      "last_frame": 295,
+      "first_timestamp": 11.8,
+      "last_timestamp": 11.8,
+      "detection_count": 1,
+      "avg_confidence": 0.375,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1110.02,
+          "y": 239.31,
+          "frame_index": 295,
+          "timestamp_sec": 11.8
+        }
+      ]
+    },
+    {
+      "track_id": 24,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 300,
+      "last_frame": 310,
+      "first_timestamp": 12.0,
+      "last_timestamp": 12.4,
+      "detection_count": 3,
+      "avg_confidence": 0.3223,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 1.13,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1059.03,
+          "y": 90.78,
+          "frame_index": 300,
+          "timestamp_sec": 12.0
+        },
+        {
+          "x": 1059.04,
+          "y": 90.82,
+          "frame_index": 305,
+          "timestamp_sec": 12.2
+        },
+        {
+          "x": 1060.16,
+          "y": 90.82,
+          "frame_index": 310,
+          "timestamp_sec": 12.4
+        }
+      ]
+    },
+    {
+      "track_id": 25,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 315,
+      "last_frame": 345,
+      "first_timestamp": 12.6,
+      "last_timestamp": 13.8,
+      "detection_count": 6,
+      "avg_confidence": 0.3417,
+      "movement_state": "MOVING",
+      "pixel_displacement": 16.99,
+      "trajectory_direction": "North",
+      "trajectory_points": [
+        {
+          "x": 1113.41,
+          "y": 240.72,
+          "frame_index": 315,
+          "timestamp_sec": 12.6
+        },
+        {
+          "x": 1115.15,
+          "y": 239.13,
+          "frame_index": 320,
+          "timestamp_sec": 12.8
+        },
+        {
+          "x": 1115.35,
+          "y": 236.14,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 1115.64,
+          "y": 232.78,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 1117.09,
+          "y": 230.02,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 1118.63,
+          "y": 224.55,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        }
+      ]
+    },
+    {
+      "track_id": 26,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 325,
+      "last_frame": 325,
+      "first_timestamp": 13.0,
+      "last_timestamp": 13.0,
+      "detection_count": 1,
+      "avg_confidence": 0.2631,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 373.35,
+          "y": 369.8,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        }
+      ]
+    },
+    {
+      "track_id": 27,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 325,
+      "last_frame": 360,
+      "first_timestamp": 13.0,
+      "last_timestamp": 14.4,
+      "detection_count": 8,
+      "avg_confidence": 0.3798,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 13.74,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 688.03,
+          "y": 339.08,
+          "frame_index": 325,
+          "timestamp_sec": 13.0
+        },
+        {
+          "x": 689.15,
+          "y": 336.59,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 688.65,
+          "y": 334.19,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 689.32,
+          "y": 330.81,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 690.12,
+          "y": 326.6,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 690.64,
+          "y": 324.71,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 690.77,
+          "y": 325.52,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 692.05,
+          "y": 325.94,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        }
+      ]
+    },
+    {
+      "track_id": 28,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 330,
+      "last_frame": 365,
+      "first_timestamp": 13.2,
+      "last_timestamp": 14.6,
+      "detection_count": 8,
+      "avg_confidence": 0.3572,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 14.74,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 220.9,
+          "y": 391.77,
+          "frame_index": 330,
+          "timestamp_sec": 13.2
+        },
+        {
+          "x": 220.6,
+          "y": 388.21,
+          "frame_index": 335,
+          "timestamp_sec": 13.4
+        },
+        {
+          "x": 223.51,
+          "y": 385.72,
+          "frame_index": 340,
+          "timestamp_sec": 13.6
+        },
+        {
+          "x": 228.49,
+          "y": 382.34,
+          "frame_index": 345,
+          "timestamp_sec": 13.8
+        },
+        {
+          "x": 226.36,
+          "y": 381.96,
+          "frame_index": 350,
+          "timestamp_sec": 14.0
+        },
+        {
+          "x": 226.38,
+          "y": 381.96,
+          "frame_index": 355,
+          "timestamp_sec": 14.2
+        },
+        {
+          "x": 227.66,
+          "y": 381.99,
+          "frame_index": 360,
+          "timestamp_sec": 14.4
+        },
+        {
+          "x": 233.13,
+          "y": 383.55,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        }
+      ]
+    },
+    {
+      "track_id": 29,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 365,
+      "last_frame": 475,
+      "first_timestamp": 14.6,
+      "last_timestamp": 19.0,
+      "detection_count": 23,
+      "avg_confidence": 0.4433,
+      "movement_state": "MOVING",
+      "pixel_displacement": 22.72,
+      "trajectory_direction": "East",
+      "trajectory_points": [
+        {
+          "x": 222.92,
+          "y": 384.71,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 225.56,
+          "y": 387.75,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        },
+        {
+          "x": 225.53,
+          "y": 389.7,
+          "frame_index": 375,
+          "timestamp_sec": 15.0
+        },
+        {
+          "x": 227.3,
+          "y": 392.1,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 225.64,
+          "y": 395.59,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 230.49,
+          "y": 398.89,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 230.55,
+          "y": 401.09,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 231.43,
+          "y": 401.12,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 231.43,
+          "y": 401.12,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 230.25,
+          "y": 399.87,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 230.7,
+          "y": 396.52,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 234.77,
+          "y": 393.8,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 237.1,
+          "y": 391.35,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 234.19,
+          "y": 389.53,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 238.53,
+          "y": 386.23,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 244.23,
+          "y": 383.91,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 238.97,
+          "y": 383.2,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 239.74,
+          "y": 383.05,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 240.05,
+          "y": 383.69,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 241.66,
+          "y": 385.38,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 242.73,
+          "y": 387.24,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 242.13,
+          "y": 390.47,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 244.3,
+          "y": 392.41,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        }
+      ]
+    },
+    {
+      "track_id": 30,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 365,
+      "last_frame": 370,
+      "first_timestamp": 14.6,
+      "last_timestamp": 14.8,
+      "detection_count": 2,
+      "avg_confidence": 0.3739,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 3.68,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1122.01,
+          "y": 225.59,
+          "frame_index": 365,
+          "timestamp_sec": 14.6
+        },
+        {
+          "x": 1123.27,
+          "y": 229.05,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        }
+      ]
+    },
+    {
+      "track_id": 31,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 370,
+      "last_frame": 370,
+      "first_timestamp": 14.8,
+      "last_timestamp": 14.8,
+      "detection_count": 1,
+      "avg_confidence": 0.266,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1122.52,
+          "y": 229.33,
+          "frame_index": 370,
+          "timestamp_sec": 14.8
+        }
+      ]
+    },
+    {
+      "track_id": 32,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 380,
+      "last_frame": 495,
+      "first_timestamp": 15.2,
+      "last_timestamp": 19.8,
+      "detection_count": 24,
+      "avg_confidence": 0.4391,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 11.69,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 660.09,
+          "y": 391.49,
+          "frame_index": 380,
+          "timestamp_sec": 15.2
+        },
+        {
+          "x": 660.22,
+          "y": 395.43,
+          "frame_index": 385,
+          "timestamp_sec": 15.4
+        },
+        {
+          "x": 659.61,
+          "y": 397.53,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        },
+        {
+          "x": 654.13,
+          "y": 399.51,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        },
+        {
+          "x": 652.55,
+          "y": 399.3,
+          "frame_index": 400,
+          "timestamp_sec": 16.0
+        },
+        {
+          "x": 652.55,
+          "y": 399.29,
+          "frame_index": 405,
+          "timestamp_sec": 16.2
+        },
+        {
+          "x": 652.97,
+          "y": 398.01,
+          "frame_index": 410,
+          "timestamp_sec": 16.4
+        },
+        {
+          "x": 658.22,
+          "y": 395.09,
+          "frame_index": 415,
+          "timestamp_sec": 16.6
+        },
+        {
+          "x": 657.43,
+          "y": 391.16,
+          "frame_index": 420,
+          "timestamp_sec": 16.8
+        },
+        {
+          "x": 659.31,
+          "y": 388.08,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 662.34,
+          "y": 386.39,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 657.29,
+          "y": 384.13,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        },
+        {
+          "x": 658.64,
+          "y": 381.62,
+          "frame_index": 440,
+          "timestamp_sec": 17.6
+        },
+        {
+          "x": 659.78,
+          "y": 380.59,
+          "frame_index": 445,
+          "timestamp_sec": 17.8
+        },
+        {
+          "x": 660.76,
+          "y": 380.5,
+          "frame_index": 450,
+          "timestamp_sec": 18.0
+        },
+        {
+          "x": 660.77,
+          "y": 381.53,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        },
+        {
+          "x": 661.42,
+          "y": 383.72,
+          "frame_index": 460,
+          "timestamp_sec": 18.4
+        },
+        {
+          "x": 664.17,
+          "y": 386.22,
+          "frame_index": 465,
+          "timestamp_sec": 18.6
+        },
+        {
+          "x": 666.44,
+          "y": 388.73,
+          "frame_index": 470,
+          "timestamp_sec": 18.8
+        },
+        {
+          "x": 665.82,
+          "y": 392.1,
+          "frame_index": 475,
+          "timestamp_sec": 19.0
+        },
+        {
+          "x": 666.96,
+          "y": 395.73,
+          "frame_index": 480,
+          "timestamp_sec": 19.2
+        },
+        {
+          "x": 667.09,
+          "y": 397.57,
+          "frame_index": 485,
+          "timestamp_sec": 19.4
+        },
+        {
+          "x": 668.09,
+          "y": 399.09,
+          "frame_index": 490,
+          "timestamp_sec": 19.6
+        },
+        {
+          "x": 669.08,
+          "y": 398.97,
+          "frame_index": 495,
+          "timestamp_sec": 19.8
+        }
+      ]
+    },
+    {
+      "track_id": 33,
+      "class_id": 5,
+      "class_name": "Tank",
+      "first_frame": 390,
+      "last_frame": 390,
+      "first_timestamp": 15.6,
+      "last_timestamp": 15.6,
+      "detection_count": 1,
+      "avg_confidence": 0.3276,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1125.3,
+          "y": 239.62,
+          "frame_index": 390,
+          "timestamp_sec": 15.6
+        }
+      ]
+    },
+    {
+      "track_id": 34,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 395,
+      "last_frame": 395,
+      "first_timestamp": 15.8,
+      "last_timestamp": 15.8,
+      "detection_count": 1,
+      "avg_confidence": 0.2579,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1073.4,
+          "y": 90.62,
+          "frame_index": 395,
+          "timestamp_sec": 15.8
+        }
+      ]
+    },
+    {
+      "track_id": 35,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 425,
+      "last_frame": 435,
+      "first_timestamp": 17.0,
+      "last_timestamp": 17.4,
+      "detection_count": 3,
+      "avg_confidence": 0.3032,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 5.87,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 705.02,
+          "y": 337.1,
+          "frame_index": 425,
+          "timestamp_sec": 17.0
+        },
+        {
+          "x": 703.7,
+          "y": 333.99,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        },
+        {
+          "x": 705.39,
+          "y": 331.24,
+          "frame_index": 435,
+          "timestamp_sec": 17.4
+        }
+      ]
+    },
+    {
+      "track_id": 36,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 430,
+      "last_frame": 430,
+      "first_timestamp": 17.2,
+      "last_timestamp": 17.2,
+      "detection_count": 1,
+      "avg_confidence": 0.2507,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1131.7,
+          "y": 230.38,
+          "frame_index": 430,
+          "timestamp_sec": 17.2
+        }
+      ]
+    },
+    {
+      "track_id": 37,
+      "class_id": 4,
+      "class_name": "Soldier",
+      "first_frame": 455,
+      "last_frame": 455,
+      "first_timestamp": 18.2,
+      "last_timestamp": 18.2,
+      "detection_count": 1,
+      "avg_confidence": 0.2604,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.0,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 708.08,
+          "y": 327.38,
+          "frame_index": 455,
+          "timestamp_sec": 18.2
+        }
+      ]
+    },
+    {
+      "track_id": 38,
+      "class_id": 6,
+      "class_name": "Vehicle",
+      "first_frame": 490,
+      "last_frame": 495,
+      "first_timestamp": 19.6,
+      "last_timestamp": 19.8,
+      "detection_count": 2,
+      "avg_confidence": 0.3426,
+      "movement_state": "STATIONARY",
+      "pixel_displacement": 0.71,
+      "trajectory_direction": "Stationary",
+      "trajectory_points": [
+        {
+          "x": 1088.43,
+          "y": 90.88,
+          "frame_index": 490,
+          "timestamp_sec": 19.6
+        },
+        {
+          "x": 1089.12,
+          "y": 91.03,
+          "frame_index": 495,
+          "timestamp_sec": 19.8
+        }
+      ]
+    }
+  ]
+}

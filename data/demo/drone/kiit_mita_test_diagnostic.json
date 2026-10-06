@@ -1,0 +1,4135 @@
+{
+  "model_path": "data/models/yolov8n_kiit_mita.pt",
+  "sample_size": 20,
+  "total_inference_time_ms": 1919.29,
+  "average_inference_time_ms": 95.96,
+  "overall_by_threshold": {
+    "0.25": {
+      "total_gt_objects": 43,
+      "total_predicted_objects": 66,
+      "matched_true_positives": 37,
+      "wrong_class_predictions": 4,
+      "missed_objects": 2,
+      "extra_predictions": 25,
+      "overall_avg_confidence": 0.6388,
+      "class_wise": {
+        "Artilary": {
+          "gt_count": 1,
+          "predicted_count": 2,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 0
+        },
+        "Missile": {
+          "gt_count": 4,
+          "predicted_count": 3,
+          "true_positives": 3,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 0
+        },
+        "Radar": {
+          "gt_count": 1,
+          "predicted_count": 2,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 1
+        },
+        "M. Rocket Launcher": {
+          "gt_count": 2,
+          "predicted_count": 3,
+          "true_positives": 2,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 1
+        },
+        "Soldier": {
+          "gt_count": 8,
+          "predicted_count": 19,
+          "true_positives": 8,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 11
+        },
+        "Tank": {
+          "gt_count": 8,
+          "predicted_count": 15,
+          "true_positives": 7,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 6
+        },
+        "Vehicle": {
+          "gt_count": 19,
+          "predicted_count": 22,
+          "true_positives": 15,
+          "missed_count": 2,
+          "wrong_class_count": 2,
+          "extra_count": 6
+        }
+      }
+    },
+    "0.1": {
+      "total_gt_objects": 43,
+      "total_predicted_objects": 107,
+      "matched_true_positives": 39,
+      "wrong_class_predictions": 4,
+      "missed_objects": 0,
+      "extra_predictions": 64,
+      "overall_avg_confidence": 0.4485,
+      "class_wise": {
+        "Artilary": {
+          "gt_count": 1,
+          "predicted_count": 3,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 1
+        },
+        "Missile": {
+          "gt_count": 4,
+          "predicted_count": 3,
+          "true_positives": 3,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 0
+        },
+        "Radar": {
+          "gt_count": 1,
+          "predicted_count": 5,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 4
+        },
+        "M. Rocket Launcher": {
+          "gt_count": 2,
+          "predicted_count": 4,
+          "true_positives": 2,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 2
+        },
+        "Soldier": {
+          "gt_count": 8,
+          "predicted_count": 44,
+          "true_positives": 8,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 36
+        },
+        "Tank": {
+          "gt_count": 8,
+          "predicted_count": 19,
+          "true_positives": 7,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 10
+        },
+        "Vehicle": {
+          "gt_count": 19,
+          "predicted_count": 29,
+          "true_positives": 17,
+          "missed_count": 0,
+          "wrong_class_count": 2,
+          "extra_count": 11
+        }
+      }
+    },
+    "0.05": {
+      "total_gt_objects": 43,
+      "total_predicted_objects": 135,
+      "matched_true_positives": 39,
+      "wrong_class_predictions": 4,
+      "missed_objects": 0,
+      "extra_predictions": 92,
+      "overall_avg_confidence": 0.3678,
+      "class_wise": {
+        "Artilary": {
+          "gt_count": 1,
+          "predicted_count": 3,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 1
+        },
+        "Missile": {
+          "gt_count": 4,
+          "predicted_count": 4,
+          "true_positives": 3,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 1
+        },
+        "Radar": {
+          "gt_count": 1,
+          "predicted_count": 5,
+          "true_positives": 1,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 4
+        },
+        "M. Rocket Launcher": {
+          "gt_count": 2,
+          "predicted_count": 6,
+          "true_positives": 2,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 4
+        },
+        "Soldier": {
+          "gt_count": 8,
+          "predicted_count": 65,
+          "true_positives": 8,
+          "missed_count": 0,
+          "wrong_class_count": 0,
+          "extra_count": 57
+        },
+        "Tank": {
+          "gt_count": 8,
+          "predicted_count": 22,
+          "true_positives": 7,
+          "missed_count": 0,
+          "wrong_class_count": 1,
+          "extra_count": 13
+        },
+        "Vehicle": {
+          "gt_count": 19,
+          "predicted_count": 30,
+          "true_positives": 17,
+          "missed_count": 0,
+          "wrong_class_count": 2,
+          "extra_count": 12
+        }
+      }
+    }
+  },
+  "per_image_evaluations": [
+    {
+      "image_index": 1,
+      "filename": "image_s3r2_kiit_1006.jpeg",
+      "inference_time_ms": 929.46,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Artilary": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Artilary": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.6667,
+          "tp_matches": [
+            {
+              "gt_class": "Artilary",
+              "pred_class": "Artilary",
+              "conf": 0.6667,
+              "iou": 0.9217
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Artilary": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.6667,
+          "tp_matches": [
+            {
+              "gt_class": "Artilary",
+              "pred_class": "Artilary",
+              "conf": 0.6667,
+              "iou": 0.9217
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Artilary": 1,
+            "Missile": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.3592,
+          "tp_matches": [
+            {
+              "gt_class": "Artilary",
+              "pred_class": "Artilary",
+              "conf": 0.6667,
+              "iou": 0.9217
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Missile",
+              "conf": 0.0517,
+              "box": [
+                0.0232,
+                0.0396,
+                0.1399,
+                0.1883
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 2,
+      "filename": "image_s3r2_kiit_1018.jpeg",
+      "inference_time_ms": 62.77,
+      "gt_count": 2,
+      "gt_class_counts": {
+        "Tank": 2
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Tank": 2
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.8046,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.8534,
+              "iou": 0.9211
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.7557,
+              "iou": 0.7185
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 4,
+          "pred_class_counts": {
+            "Tank": 3,
+            "Artilary": 1
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4856,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.8534,
+              "iou": 0.9211
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.1367,
+              "iou": 0.7956
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.7557,
+              "box": [
+                0.5299,
+                0.2872,
+                0.9076,
+                0.9448
+              ]
+            },
+            {
+              "class_name": "Artilary",
+              "conf": 0.1964,
+              "box": [
+                0.4662,
+                0.0536,
+                0.5253,
+                0.3633
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 4,
+          "pred_class_counts": {
+            "Tank": 3,
+            "Artilary": 1
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4856,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.8534,
+              "iou": 0.9211
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.1367,
+              "iou": 0.7956
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.7557,
+              "box": [
+                0.5299,
+                0.2872,
+                0.9076,
+                0.9448
+              ]
+            },
+            {
+              "class_name": "Artilary",
+              "conf": 0.1964,
+              "box": [
+                0.4662,
+                0.0536,
+                0.5253,
+                0.3633
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 3,
+      "filename": "image_s3r2_kiit_1020.jpeg",
+      "inference_time_ms": 60.26,
+      "gt_count": 7,
+      "gt_class_counts": {
+        "Vehicle": 6,
+        "Soldier": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 10,
+          "pred_class_counts": {
+            "Vehicle": 5,
+            "Tank": 4,
+            "Soldier": 1
+          },
+          "tp_count": 6,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 3,
+          "avg_confidence": 0.6633,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8663,
+              "iou": 0.8914
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8971,
+              "iou": 0.8778
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.547,
+              "iou": 0.7693
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7514,
+              "iou": 0.7483
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.444,
+              "iou": 0.7458
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6535,
+              "iou": 0.7426
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.8906,
+              "iou": 0.9552
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6832,
+              "box": [
+                0.6175,
+                0.575,
+                0.7896,
+                0.814
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4777,
+              "box": [
+                0.0,
+                0.4807,
+                0.1456,
+                0.6643
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4227,
+              "box": [
+                0.1573,
+                0.5095,
+                0.3389,
+                0.7058
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 11,
+          "pred_class_counts": {
+            "Vehicle": 5,
+            "Tank": 4,
+            "Soldier": 2
+          },
+          "tp_count": 6,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 4,
+          "avg_confidence": 0.6146,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8663,
+              "iou": 0.8914
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8971,
+              "iou": 0.8778
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.547,
+              "iou": 0.7693
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7514,
+              "iou": 0.7483
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.444,
+              "iou": 0.7458
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6535,
+              "iou": 0.7426
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.8906,
+              "iou": 0.9552
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6832,
+              "box": [
+                0.6175,
+                0.575,
+                0.7896,
+                0.814
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4777,
+              "box": [
+                0.0,
+                0.4807,
+                0.1456,
+                0.6643
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4227,
+              "box": [
+                0.1573,
+                0.5095,
+                0.3389,
+                0.7058
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1267,
+              "box": [
+                0.0792,
+                0.4372,
+                0.1037,
+                0.5057
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 12,
+          "pred_class_counts": {
+            "Vehicle": 5,
+            "Tank": 4,
+            "Soldier": 3
+          },
+          "tp_count": 6,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 5,
+          "avg_confidence": 0.5685,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8663,
+              "iou": 0.8914
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8971,
+              "iou": 0.8778
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.547,
+              "iou": 0.7693
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7514,
+              "iou": 0.7483
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.444,
+              "iou": 0.7458
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6535,
+              "iou": 0.7426
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.8906,
+              "iou": 0.9552
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6832,
+              "box": [
+                0.6175,
+                0.575,
+                0.7896,
+                0.814
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4777,
+              "box": [
+                0.0,
+                0.4807,
+                0.1456,
+                0.6643
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.4227,
+              "box": [
+                0.1573,
+                0.5095,
+                0.3389,
+                0.7058
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1267,
+              "box": [
+                0.0792,
+                0.4372,
+                0.1037,
+                0.5057
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0612,
+              "box": [
+                0.0656,
+                0.4319,
+                0.1027,
+                0.504
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 4,
+      "filename": "image_s3r2_kiit_1025.jpeg",
+      "inference_time_ms": 38.98,
+      "gt_count": 2,
+      "gt_class_counts": {
+        "Vehicle": 2
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 0,
+          "pred_class_counts": {},
+          "tp_count": 0,
+          "wrong_class_count": 0,
+          "missed_count": 2,
+          "extra_count": 0,
+          "avg_confidence": 0.0,
+          "tp_matches": [],
+          "wrong_class_matches": [],
+          "missed_gt": [
+            {
+              "class_name": "Vehicle",
+              "box": [
+                0.8513,
+                0.1916,
+                1.0,
+                0.8301
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "box": [
+                0.2702,
+                0.0315,
+                0.8163,
+                0.9903
+              ]
+            }
+          ],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "Radar": 1,
+            "Vehicle": 2
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.1712,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.1632,
+              "iou": 0.7391
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.1583,
+              "iou": 0.6943
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Radar",
+              "conf": 0.192,
+              "box": [
+                0.2828,
+                0.2174,
+                0.9968,
+                0.9695
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "Radar": 1,
+            "Vehicle": 2
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.1712,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.1632,
+              "iou": 0.7391
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.1583,
+              "iou": 0.6943
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Radar",
+              "conf": 0.192,
+              "box": [
+                0.2828,
+                0.2174,
+                0.9968,
+                0.9695
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 5,
+      "filename": "image_s3r2_kiit_1043.jpeg",
+      "inference_time_ms": 59.75,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Tank": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9414,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9414,
+              "iou": 0.9045
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9414,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9414,
+              "iou": 0.9045
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Tank": 1,
+            "Soldier": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5034,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9414,
+              "iou": 0.9045
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Soldier",
+              "conf": 0.0654,
+              "box": [
+                0.0236,
+                0.965,
+                0.0525,
+                1.0
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 6,
+      "filename": "image_s3r2_kiit_105.jpeg",
+      "inference_time_ms": 54.18,
+      "gt_count": 5,
+      "gt_class_counts": {
+        "Vehicle": 2,
+        "Soldier": 1,
+        "Tank": 2
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 12,
+          "pred_class_counts": {
+            "Tank": 3,
+            "Vehicle": 4,
+            "Soldier": 5
+          },
+          "tp_count": 5,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 7,
+          "avg_confidence": 0.5029,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9377,
+              "iou": 0.9269
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6465,
+              "iou": 0.8708
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.4915,
+              "iou": 0.8414
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6596,
+              "iou": 0.771
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.4114,
+              "iou": 0.6159
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6957,
+              "box": [
+                0.0816,
+                0.2304,
+                0.2148,
+                0.3372
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5456,
+              "box": [
+                0.7857,
+                0.3123,
+                0.8346,
+                0.4951
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4079,
+              "box": [
+                0.5265,
+                0.1478,
+                0.5416,
+                0.2047
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.3736,
+              "box": [
+                0.4608,
+                0.2646,
+                0.4879,
+                0.3749
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2977,
+              "box": [
+                0.012,
+                0.1197,
+                0.1097,
+                0.2638
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2899,
+              "box": [
+                0.1702,
+                0.274,
+                0.3614,
+                0.4553
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2775,
+              "box": [
+                0.5228,
+                0.1458,
+                0.5445,
+                0.2065
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 20,
+          "pred_class_counts": {
+            "Tank": 4,
+            "Vehicle": 4,
+            "Soldier": 12
+          },
+          "tp_count": 5,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 15,
+          "avg_confidence": 0.3612,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9377,
+              "iou": 0.9269
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6465,
+              "iou": 0.8708
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.4915,
+              "iou": 0.8414
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6596,
+              "iou": 0.771
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.4114,
+              "iou": 0.6159
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6957,
+              "box": [
+                0.0816,
+                0.2304,
+                0.2148,
+                0.3372
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5456,
+              "box": [
+                0.7857,
+                0.3123,
+                0.8346,
+                0.4951
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4079,
+              "box": [
+                0.5265,
+                0.1478,
+                0.5416,
+                0.2047
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.3736,
+              "box": [
+                0.4608,
+                0.2646,
+                0.4879,
+                0.3749
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2977,
+              "box": [
+                0.012,
+                0.1197,
+                0.1097,
+                0.2638
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2899,
+              "box": [
+                0.1702,
+                0.274,
+                0.3614,
+                0.4553
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2775,
+              "box": [
+                0.5228,
+                0.1458,
+                0.5445,
+                0.2065
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2422,
+              "box": [
+                0.5792,
+                0.1871,
+                0.6063,
+                0.3064
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1798,
+              "box": [
+                0.4587,
+                0.2485,
+                0.493,
+                0.3731
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1655,
+              "box": [
+                0.3852,
+                0.1357,
+                0.4162,
+                0.3242
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1467,
+              "box": [
+                0.5828,
+                0.2996,
+                0.6217,
+                0.439
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1256,
+              "box": [
+                0.4864,
+                0.1467,
+                0.51,
+                0.2415
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.1137,
+              "box": [
+                0.0116,
+                0.165,
+                0.1101,
+                0.2662
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1095,
+              "box": [
+                0.7473,
+                0.2717,
+                0.781,
+                0.416
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.106,
+              "box": [
+                0.7487,
+                0.2676,
+                0.7859,
+                0.4629
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 29,
+          "pred_class_counts": {
+            "Tank": 5,
+            "Vehicle": 4,
+            "Soldier": 19,
+            "M. Rocket Launcher": 1
+          },
+          "tp_count": 5,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 24,
+          "avg_confidence": 0.2707,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.9377,
+              "iou": 0.9269
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6465,
+              "iou": 0.8708
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.4915,
+              "iou": 0.8414
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.6596,
+              "iou": 0.771
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.4114,
+              "iou": 0.6159
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.6957,
+              "box": [
+                0.0816,
+                0.2304,
+                0.2148,
+                0.3372
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5456,
+              "box": [
+                0.7857,
+                0.3123,
+                0.8346,
+                0.4951
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4079,
+              "box": [
+                0.5265,
+                0.1478,
+                0.5416,
+                0.2047
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.3736,
+              "box": [
+                0.4608,
+                0.2646,
+                0.4879,
+                0.3749
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2977,
+              "box": [
+                0.012,
+                0.1197,
+                0.1097,
+                0.2638
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.2899,
+              "box": [
+                0.1702,
+                0.274,
+                0.3614,
+                0.4553
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2775,
+              "box": [
+                0.5228,
+                0.1458,
+                0.5445,
+                0.2065
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2422,
+              "box": [
+                0.5792,
+                0.1871,
+                0.6063,
+                0.3064
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1798,
+              "box": [
+                0.4587,
+                0.2485,
+                0.493,
+                0.3731
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1655,
+              "box": [
+                0.3852,
+                0.1357,
+                0.4162,
+                0.3242
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1467,
+              "box": [
+                0.5828,
+                0.2996,
+                0.6217,
+                0.439
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1256,
+              "box": [
+                0.4864,
+                0.1467,
+                0.51,
+                0.2415
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.1137,
+              "box": [
+                0.0116,
+                0.165,
+                0.1101,
+                0.2662
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1095,
+              "box": [
+                0.7473,
+                0.2717,
+                0.781,
+                0.416
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.106,
+              "box": [
+                0.7487,
+                0.2676,
+                0.7859,
+                0.4629
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.0966,
+              "box": [
+                0.0,
+                0.78,
+                0.0707,
+                1.0
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0879,
+              "box": [
+                0.497,
+                0.1552,
+                0.5109,
+                0.235
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0795,
+              "box": [
+                0.4829,
+                0.1392,
+                0.507,
+                0.2376
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0737,
+              "box": [
+                0.6985,
+                0.292,
+                0.7401,
+                0.4651
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0683,
+              "box": [
+                0.3886,
+                0.2069,
+                0.4149,
+                0.3269
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0584,
+              "box": [
+                0.5836,
+                0.1909,
+                0.6137,
+                0.3052
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0576,
+              "box": [
+                0.5796,
+                0.1879,
+                0.6017,
+                0.278
+              ]
+            },
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.0544,
+              "box": [
+                0.0,
+                0.2643,
+                0.0284,
+                0.4042
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.051,
+              "box": [
+                0.7694,
+                0.2742,
+                0.7934,
+                0.4605
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 7,
+      "filename": "image_s3r2_kiit_1061.jpeg",
+      "inference_time_ms": 38.55,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "M. Rocket Launcher": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.8885,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.8885,
+              "iou": 0.9031
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 2
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5077,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.8885,
+              "iou": 0.9031
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.127,
+              "box": [
+                0.0137,
+                0.3751,
+                0.7319,
+                0.9947
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 2
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5077,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.8885,
+              "iou": 0.9031
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.127,
+              "box": [
+                0.0137,
+                0.3751,
+                0.7319,
+                0.9947
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 8,
+      "filename": "image_s3r2_kiit_1062.jpeg",
+      "inference_time_ms": 58.86,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Missile": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1,
+            "Artilary": 1
+          },
+          "tp_count": 0,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.6323,
+          "tp_matches": [],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Artilary",
+              "conf": 0.4034,
+              "iou": 0.8488
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.8613,
+              "box": [
+                0.3317,
+                0.5352,
+                0.5766,
+                0.6535
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1,
+            "Artilary": 1
+          },
+          "tp_count": 0,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.6323,
+          "tp_matches": [],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Artilary",
+              "conf": 0.4034,
+              "iou": 0.8488
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.8613,
+              "box": [
+                0.3317,
+                0.5352,
+                0.5766,
+                0.6535
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 2,
+            "Artilary": 1
+          },
+          "tp_count": 0,
+          "wrong_class_count": 1,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4426,
+          "tp_matches": [],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Artilary",
+              "conf": 0.4034,
+              "iou": 0.8488
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.8613,
+              "box": [
+                0.3317,
+                0.5352,
+                0.5766,
+                0.6535
+              ]
+            },
+            {
+              "class_name": "M. Rocket Launcher",
+              "conf": 0.0631,
+              "box": [
+                0.0019,
+                0.4102,
+                0.2964,
+                0.5858
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 9,
+      "filename": "image_s3r2_kiit_1069.jpeg",
+      "inference_time_ms": 42.4,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Missile": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Missile": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9495,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9495,
+              "iou": 0.9524
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Missile": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9495,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9495,
+              "iou": 0.9524
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Missile": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9495,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9495,
+              "iou": 0.9524
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        }
+      }
+    },
+    {
+      "image_index": 10,
+      "filename": "image_s3r2_kiit_1075.jpeg",
+      "inference_time_ms": 48.16,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "M. Rocket Launcher": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.886,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.886,
+              "iou": 0.8324
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.886,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.886,
+              "iou": 0.8324
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "M. Rocket Launcher": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.886,
+          "tp_matches": [
+            {
+              "gt_class": "M. Rocket Launcher",
+              "pred_class": "M. Rocket Launcher",
+              "conf": 0.886,
+              "iou": 0.8324
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        }
+      }
+    },
+    {
+      "image_index": 11,
+      "filename": "image_s3r2_kiit_1077.jpeg",
+      "inference_time_ms": 59.5,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Tank": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.7495,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.7495,
+              "iou": 0.7759
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.7495,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.7495,
+              "iou": 0.7759
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.7495,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.7495,
+              "iou": 0.7759
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        }
+      }
+    },
+    {
+      "image_index": 12,
+      "filename": "image_s3r2_kiit_109.jpeg",
+      "inference_time_ms": 60.03,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Vehicle": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9073,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.9073,
+              "iou": 0.7919
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9073,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.9073,
+              "iou": 0.7919
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9073,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.9073,
+              "iou": 0.7919
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        }
+      }
+    },
+    {
+      "image_index": 13,
+      "filename": "image_s3r2_kiit_1099.jpeg",
+      "inference_time_ms": 42.7,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Missile": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Missile": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.6608,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9752,
+              "iou": 0.9728
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.3464,
+              "box": [
+                0.898,
+                0.2943,
+                0.9349,
+                0.3238
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Missile": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.6608,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9752,
+              "iou": 0.9728
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.3464,
+              "box": [
+                0.898,
+                0.2943,
+                0.9349,
+                0.3238
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "Missile": 1,
+            "Vehicle": 1,
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4697,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9752,
+              "iou": 0.9728
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.3464,
+              "box": [
+                0.898,
+                0.2943,
+                0.9349,
+                0.3238
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.0876,
+              "box": [
+                0.8978,
+                0.2887,
+                0.9339,
+                0.3238
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 14,
+      "filename": "image_s3r2_kiit_110.jpeg",
+      "inference_time_ms": 38.94,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Missile": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 1,
+          "pred_class_counts": {
+            "Missile": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 0,
+          "avg_confidence": 0.9723,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9723,
+              "iou": 0.7375
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": []
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Missile": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5716,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9723,
+              "iou": 0.7375
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1708,
+              "box": [
+                0.6391,
+                0.4049,
+                0.6794,
+                0.4438
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "Missile": 1,
+            "Vehicle": 2
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4,
+          "tp_matches": [
+            {
+              "gt_class": "Missile",
+              "pred_class": "Missile",
+              "conf": 0.9723,
+              "iou": 0.7375
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1708,
+              "box": [
+                0.6391,
+                0.4049,
+                0.6794,
+                0.4438
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.0569,
+              "box": [
+                0.5705,
+                0.3875,
+                0.6103,
+                0.424
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 15,
+      "filename": "image_s3r2_kiit_1101.jpeg",
+      "inference_time_ms": 46.55,
+      "gt_count": 6,
+      "gt_class_counts": {
+        "Vehicle": 5,
+        "Tank": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 7,
+          "pred_class_counts": {
+            "Vehicle": 5,
+            "Tank": 2
+          },
+          "tp_count": 4,
+          "wrong_class_count": 2,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5914,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7843,
+              "iou": 0.9381
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5772,
+              "iou": 0.9283
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8335
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8071
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.6886,
+              "iou": 0.9462
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Vehicle",
+              "conf": 0.7075,
+              "iou": 0.9184
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.3052,
+              "box": [
+                0.1198,
+                0.5521,
+                0.1636,
+                0.5862
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 10,
+          "pred_class_counts": {
+            "Vehicle": 6,
+            "Tank": 4
+          },
+          "tp_count": 4,
+          "wrong_class_count": 2,
+          "missed_count": 0,
+          "extra_count": 4,
+          "avg_confidence": 0.4815,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7843,
+              "iou": 0.9381
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5772,
+              "iou": 0.9283
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8335
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8071
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.6886,
+              "iou": 0.9462
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Vehicle",
+              "conf": 0.7075,
+              "iou": 0.9184
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.3052,
+              "box": [
+                0.1198,
+                0.5521,
+                0.1636,
+                0.5862
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.2301,
+              "box": [
+                0.8668,
+                0.5664,
+                0.9078,
+                0.6061
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.227,
+              "box": [
+                0.8563,
+                0.567,
+                0.9082,
+                0.6078
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.2179,
+              "box": [
+                0.2305,
+                0.6051,
+                0.2786,
+                0.6425
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 11,
+          "pred_class_counts": {
+            "Vehicle": 6,
+            "Tank": 5
+          },
+          "tp_count": 4,
+          "wrong_class_count": 2,
+          "missed_count": 0,
+          "extra_count": 5,
+          "avg_confidence": 0.4437,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.7843,
+              "iou": 0.9381
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5772,
+              "iou": 0.9283
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8335
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.5385,
+              "iou": 0.8071
+            }
+          ],
+          "wrong_class_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Tank",
+              "conf": 0.6886,
+              "iou": 0.9462
+            },
+            {
+              "gt_class": "Tank",
+              "pred_class": "Vehicle",
+              "conf": 0.7075,
+              "iou": 0.9184
+            }
+          ],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.3052,
+              "box": [
+                0.1198,
+                0.5521,
+                0.1636,
+                0.5862
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.2301,
+              "box": [
+                0.8668,
+                0.5664,
+                0.9078,
+                0.6061
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.227,
+              "box": [
+                0.8563,
+                0.567,
+                0.9082,
+                0.6078
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.2179,
+              "box": [
+                0.2305,
+                0.6051,
+                0.2786,
+                0.6425
+              ]
+            },
+            {
+              "class_name": "Tank",
+              "conf": 0.0659,
+              "box": [
+                0.2423,
+                0.6031,
+                0.279,
+                0.6414
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 16,
+      "filename": "image_s3r2_kiit_1102.jpeg",
+      "inference_time_ms": 39.73,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Radar": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Radar": 2
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.3335,
+          "tp_matches": [
+            {
+              "gt_class": "Radar",
+              "pred_class": "Radar",
+              "conf": 0.3913,
+              "iou": 0.6799
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Radar",
+              "conf": 0.2757,
+              "box": [
+                0.5022,
+                0.4085,
+                0.7801,
+                0.6181
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 5,
+          "pred_class_counts": {
+            "Radar": 4,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 4,
+          "avg_confidence": 0.2197,
+          "tp_matches": [
+            {
+              "gt_class": "Radar",
+              "pred_class": "Radar",
+              "conf": 0.1645,
+              "iou": 0.7538
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Radar",
+              "conf": 0.3913,
+              "box": [
+                0.4075,
+                0.3961,
+                0.9416,
+                0.6161
+              ]
+            },
+            {
+              "class_name": "Radar",
+              "conf": 0.2757,
+              "box": [
+                0.5022,
+                0.4085,
+                0.7801,
+                0.6181
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1662,
+              "box": [
+                0.7551,
+                0.6359,
+                0.9947,
+                0.7239
+              ]
+            },
+            {
+              "class_name": "Radar",
+              "conf": 0.1006,
+              "box": [
+                0.1655,
+                0.4004,
+                0.9661,
+                0.7275
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 5,
+          "pred_class_counts": {
+            "Radar": 4,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 4,
+          "avg_confidence": 0.2197,
+          "tp_matches": [
+            {
+              "gt_class": "Radar",
+              "pred_class": "Radar",
+              "conf": 0.1645,
+              "iou": 0.7538
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Radar",
+              "conf": 0.3913,
+              "box": [
+                0.4075,
+                0.3961,
+                0.9416,
+                0.6161
+              ]
+            },
+            {
+              "class_name": "Radar",
+              "conf": 0.2757,
+              "box": [
+                0.5022,
+                0.4085,
+                0.7801,
+                0.6181
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1662,
+              "box": [
+                0.7551,
+                0.6359,
+                0.9947,
+                0.7239
+              ]
+            },
+            {
+              "class_name": "Radar",
+              "conf": 0.1006,
+              "box": [
+                0.1655,
+                0.4004,
+                0.9661,
+                0.7275
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 17,
+      "filename": "image_s3r2_kiit_1108.jpeg",
+      "inference_time_ms": 60.14,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Vehicle": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Vehicle": 1,
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5891,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8835,
+              "iou": 0.8226
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.2948,
+              "box": [
+                0.3839,
+                0.6526,
+                0.6824,
+                0.9083
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 3,
+          "pred_class_counts": {
+            "Vehicle": 2,
+            "Tank": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 2,
+          "avg_confidence": 0.4335,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8835,
+              "iou": 0.8226
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.2948,
+              "box": [
+                0.3839,
+                0.6526,
+                0.6824,
+                0.9083
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1221,
+              "box": [
+                0.065,
+                0.61,
+                0.1572,
+                0.6759
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 4,
+          "pred_class_counts": {
+            "Vehicle": 2,
+            "Tank": 1,
+            "Soldier": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 3,
+          "avg_confidence": 0.3431,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8835,
+              "iou": 0.8226
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Tank",
+              "conf": 0.2948,
+              "box": [
+                0.3839,
+                0.6526,
+                0.6824,
+                0.9083
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1221,
+              "box": [
+                0.065,
+                0.61,
+                0.1572,
+                0.6759
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0719,
+              "box": [
+                0.116,
+                0.3865,
+                0.1534,
+                0.502
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 18,
+      "filename": "image_s3r2_kiit_1112.jpeg",
+      "inference_time_ms": 56.63,
+      "gt_count": 6,
+      "gt_class_counts": {
+        "Soldier": 6
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 10,
+          "pred_class_counts": {
+            "Soldier": 8,
+            "Vehicle": 2
+          },
+          "tp_count": 6,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 4,
+          "avg_confidence": 0.7109,
+          "tp_matches": [
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8357,
+              "iou": 0.9298
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.7095,
+              "iou": 0.8508
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.6839,
+              "iou": 0.6994
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8815,
+              "iou": 0.6819
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.9318,
+              "iou": 0.6468
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8503,
+              "iou": 0.6384
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.7099,
+              "box": [
+                0.6428,
+                0.2205,
+                0.7519,
+                0.2715
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.5393,
+              "box": [
+                0.5882,
+                0.1839,
+                0.6478,
+                0.2116
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5157,
+              "box": [
+                0.7335,
+                0.284,
+                0.7498,
+                0.3115
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4512,
+              "box": [
+                0.746,
+                0.3231,
+                0.7616,
+                0.3578
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 12,
+          "pred_class_counts": {
+            "Soldier": 9,
+            "Vehicle": 3
+          },
+          "tp_count": 6,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 6,
+          "avg_confidence": 0.6253,
+          "tp_matches": [
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8357,
+              "iou": 0.9298
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.7095,
+              "iou": 0.8508
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.6839,
+              "iou": 0.6994
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8815,
+              "iou": 0.6819
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.9318,
+              "iou": 0.6468
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8503,
+              "iou": 0.6384
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.7099,
+              "box": [
+                0.6428,
+                0.2205,
+                0.7519,
+                0.2715
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.5393,
+              "box": [
+                0.5882,
+                0.1839,
+                0.6478,
+                0.2116
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5157,
+              "box": [
+                0.7335,
+                0.284,
+                0.7498,
+                0.3115
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4512,
+              "box": [
+                0.746,
+                0.3231,
+                0.7616,
+                0.3578
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.202,
+              "box": [
+                0.734,
+                0.2844,
+                0.7552,
+                0.3169
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1931,
+              "box": [
+                0.7846,
+                0.1009,
+                0.8564,
+                0.1278
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 14,
+          "pred_class_counts": {
+            "Soldier": 11,
+            "Vehicle": 3
+          },
+          "tp_count": 6,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 8,
+          "avg_confidence": 0.5481,
+          "tp_matches": [
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8357,
+              "iou": 0.9298
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.7095,
+              "iou": 0.8508
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.6839,
+              "iou": 0.6994
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8815,
+              "iou": 0.6819
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.9318,
+              "iou": 0.6468
+            },
+            {
+              "gt_class": "Soldier",
+              "pred_class": "Soldier",
+              "conf": 0.8503,
+              "iou": 0.6384
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.7099,
+              "box": [
+                0.6428,
+                0.2205,
+                0.7519,
+                0.2715
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.5393,
+              "box": [
+                0.5882,
+                0.1839,
+                0.6478,
+                0.2116
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5157,
+              "box": [
+                0.7335,
+                0.284,
+                0.7498,
+                0.3115
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.4512,
+              "box": [
+                0.746,
+                0.3231,
+                0.7616,
+                0.3578
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.202,
+              "box": [
+                0.734,
+                0.2844,
+                0.7552,
+                0.3169
+              ]
+            },
+            {
+              "class_name": "Vehicle",
+              "conf": 0.1931,
+              "box": [
+                0.7846,
+                0.1009,
+                0.8564,
+                0.1278
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0959,
+              "box": [
+                0.8474,
+                0.3068,
+                0.8779,
+                0.3441
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0742,
+              "box": [
+                0.7424,
+                0.3182,
+                0.7639,
+                0.3568
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 19,
+      "filename": "image_s3r2_kiit_1132.jpeg",
+      "inference_time_ms": 60.97,
+      "gt_count": 2,
+      "gt_class_counts": {
+        "Vehicle": 2
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 7,
+          "pred_class_counts": {
+            "Vehicle": 2,
+            "Soldier": 5
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 5,
+          "avg_confidence": 0.6166,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8889,
+              "iou": 0.9233
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8629,
+              "iou": 0.9113
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Soldier",
+              "conf": 0.7378,
+              "box": [
+                0.4613,
+                0.5286,
+                0.4764,
+                0.5849
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5418,
+              "box": [
+                0.7433,
+                0.4169,
+                0.7579,
+                0.4744
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.518,
+              "box": [
+                0.2359,
+                0.5481,
+                0.2489,
+                0.597
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5081,
+              "box": [
+                0.5491,
+                0.4492,
+                0.5659,
+                0.5053
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2589,
+              "box": [
+                0.2311,
+                0.5477,
+                0.2505,
+                0.5981
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 23,
+          "pred_class_counts": {
+            "Vehicle": 2,
+            "Soldier": 21
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 21,
+          "avg_confidence": 0.2968,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8889,
+              "iou": 0.9233
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8629,
+              "iou": 0.9113
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Soldier",
+              "conf": 0.7378,
+              "box": [
+                0.4613,
+                0.5286,
+                0.4764,
+                0.5849
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5418,
+              "box": [
+                0.7433,
+                0.4169,
+                0.7579,
+                0.4744
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.518,
+              "box": [
+                0.2359,
+                0.5481,
+                0.2489,
+                0.597
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5081,
+              "box": [
+                0.5491,
+                0.4492,
+                0.5659,
+                0.5053
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2589,
+              "box": [
+                0.2311,
+                0.5477,
+                0.2505,
+                0.5981
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.231,
+              "box": [
+                0.1511,
+                0.4922,
+                0.1632,
+                0.5215
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2272,
+              "box": [
+                0.6246,
+                0.4585,
+                0.6367,
+                0.5085
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2068,
+              "box": [
+                0.6152,
+                0.447,
+                0.6317,
+                0.4958
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2066,
+              "box": [
+                0.6203,
+                0.45,
+                0.635,
+                0.5094
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1936,
+              "box": [
+                0.4388,
+                0.5613,
+                0.4531,
+                0.585
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1783,
+              "box": [
+                0.2003,
+                0.5458,
+                0.2135,
+                0.5696
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.144,
+              "box": [
+                0.5436,
+                0.4525,
+                0.563,
+                0.5053
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1423,
+              "box": [
+                0.5503,
+                0.4437,
+                0.5704,
+                0.5062
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1314,
+              "box": [
+                0.4786,
+                0.4878,
+                0.4901,
+                0.5187
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1275,
+              "box": [
+                0.4162,
+                0.5069,
+                0.4293,
+                0.5339
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1264,
+              "box": [
+                0.6102,
+                0.4445,
+                0.6293,
+                0.4899
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1215,
+              "box": [
+                0.4553,
+                0.5212,
+                0.4727,
+                0.5804
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1199,
+              "box": [
+                0.4907,
+                0.4824,
+                0.5021,
+                0.5181
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1196,
+              "box": [
+                0.6023,
+                0.4444,
+                0.6166,
+                0.4842
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1179,
+              "box": [
+                0.4399,
+                0.4963,
+                0.4601,
+                0.5285
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1151,
+              "box": [
+                0.4478,
+                0.5376,
+                0.463,
+                0.5862
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 32,
+          "pred_class_counts": {
+            "Vehicle": 2,
+            "Soldier": 30
+          },
+          "tp_count": 2,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 30,
+          "avg_confidence": 0.2338,
+          "tp_matches": [
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8889,
+              "iou": 0.9233
+            },
+            {
+              "gt_class": "Vehicle",
+              "pred_class": "Vehicle",
+              "conf": 0.8629,
+              "iou": 0.9113
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Soldier",
+              "conf": 0.7378,
+              "box": [
+                0.4613,
+                0.5286,
+                0.4764,
+                0.5849
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5418,
+              "box": [
+                0.7433,
+                0.4169,
+                0.7579,
+                0.4744
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.518,
+              "box": [
+                0.2359,
+                0.5481,
+                0.2489,
+                0.597
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.5081,
+              "box": [
+                0.5491,
+                0.4492,
+                0.5659,
+                0.5053
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2589,
+              "box": [
+                0.2311,
+                0.5477,
+                0.2505,
+                0.5981
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.231,
+              "box": [
+                0.1511,
+                0.4922,
+                0.1632,
+                0.5215
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2272,
+              "box": [
+                0.6246,
+                0.4585,
+                0.6367,
+                0.5085
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2068,
+              "box": [
+                0.6152,
+                0.447,
+                0.6317,
+                0.4958
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.2066,
+              "box": [
+                0.6203,
+                0.45,
+                0.635,
+                0.5094
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1936,
+              "box": [
+                0.4388,
+                0.5613,
+                0.4531,
+                0.585
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1783,
+              "box": [
+                0.2003,
+                0.5458,
+                0.2135,
+                0.5696
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.144,
+              "box": [
+                0.5436,
+                0.4525,
+                0.563,
+                0.5053
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1423,
+              "box": [
+                0.5503,
+                0.4437,
+                0.5704,
+                0.5062
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1314,
+              "box": [
+                0.4786,
+                0.4878,
+                0.4901,
+                0.5187
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1275,
+              "box": [
+                0.4162,
+                0.5069,
+                0.4293,
+                0.5339
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1264,
+              "box": [
+                0.6102,
+                0.4445,
+                0.6293,
+                0.4899
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1215,
+              "box": [
+                0.4553,
+                0.5212,
+                0.4727,
+                0.5804
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1199,
+              "box": [
+                0.4907,
+                0.4824,
+                0.5021,
+                0.5181
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1196,
+              "box": [
+                0.6023,
+                0.4444,
+                0.6166,
+                0.4842
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1179,
+              "box": [
+                0.4399,
+                0.4963,
+                0.4601,
+                0.5285
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.1151,
+              "box": [
+                0.4478,
+                0.5376,
+                0.463,
+                0.5862
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0974,
+              "box": [
+                0.3015,
+                0.5126,
+                0.3156,
+                0.5456
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.094,
+              "box": [
+                0.1998,
+                0.5497,
+                0.2164,
+                0.5848
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0869,
+              "box": [
+                0.513,
+                0.4526,
+                0.5255,
+                0.4822
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0708,
+              "box": [
+                0.7096,
+                0.4641,
+                0.7262,
+                0.5186
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0671,
+              "box": [
+                0.4898,
+                0.4684,
+                0.5034,
+                0.5177
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0635,
+              "box": [
+                0.4365,
+                0.5536,
+                0.4565,
+                0.5847
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0621,
+              "box": [
+                0.5795,
+                0.4416,
+                0.5909,
+                0.4807
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0596,
+              "box": [
+                0.5564,
+                0.4409,
+                0.574,
+                0.5076
+              ]
+            },
+            {
+              "class_name": "Soldier",
+              "conf": 0.0547,
+              "box": [
+                0.6069,
+                0.4312,
+                0.6316,
+                0.5035
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "image_index": 20,
+      "filename": "image_s3r2_kiit_1137.jpeg",
+      "inference_time_ms": 60.73,
+      "gt_count": 1,
+      "gt_class_counts": {
+        "Tank": 1
+      },
+      "thresholds": {
+        "0.25": {
+          "conf_threshold": 0.25,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Tank": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5313,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.6405,
+              "iou": 0.6798
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.4221,
+              "box": [
+                0.4422,
+                0.352,
+                0.564,
+                0.5462
+              ]
+            }
+          ]
+        },
+        "0.1": {
+          "conf_threshold": 0.1,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Tank": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5313,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.6405,
+              "iou": 0.6798
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.4221,
+              "box": [
+                0.4422,
+                0.352,
+                0.564,
+                0.5462
+              ]
+            }
+          ]
+        },
+        "0.05": {
+          "conf_threshold": 0.05,
+          "pred_count": 2,
+          "pred_class_counts": {
+            "Tank": 1,
+            "Vehicle": 1
+          },
+          "tp_count": 1,
+          "wrong_class_count": 0,
+          "missed_count": 0,
+          "extra_count": 1,
+          "avg_confidence": 0.5313,
+          "tp_matches": [
+            {
+              "gt_class": "Tank",
+              "pred_class": "Tank",
+              "conf": 0.6405,
+              "iou": 0.6798
+            }
+          ],
+          "wrong_class_matches": [],
+          "missed_gt": [],
+          "extra_preds": [
+            {
+              "class_name": "Vehicle",
+              "conf": 0.4221,
+              "box": [
+                0.4422,
+                0.352,
+                0.564,
+                0.5462
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ]
+}

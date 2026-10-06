@@ -1,0 +1,895 @@
+{
+  "stage": "STAGE_1_BASELINE_AND_CLEAN_DATASET_VERIFICATION",
+  "original_dataset_path": "data/datasets/military/KIIT-MiTA",
+  "cleaned_dataset_path": "data/datasets/military/KIIT-MiTA_cleaned",
+  "model_path": "data/models/yolov8n_kiit_mita.pt",
+  "evaluation_configuration": {
+    "confidence_threshold": 0.25,
+    "iou_threshold": 0.5,
+    "imgsz": 640,
+    "batch": 16,
+    "device": "cpu"
+  },
+  "cleaned_dataset_stats": {
+    "train": {
+      "image_count": 1341,
+      "label_count": 1341,
+      "missing_pairings": 0,
+      "total_objects": 3616,
+      "class_counts_by_id": {
+        "0": 231,
+        "1": 367,
+        "2": 223,
+        "3": 297,
+        "4": 898,
+        "5": 667,
+        "6": 933
+      },
+      "class_counts_by_name": {
+        "Artilary": 231,
+        "Missile": 367,
+        "Radar": 223,
+        "M. Rocket Launcher": 297,
+        "Soldier": 898,
+        "Tank": 667,
+        "Vehicle": 933
+      }
+    },
+    "valid": {
+      "image_count": 170,
+      "label_count": 170,
+      "missing_pairings": 0,
+      "total_objects": 456,
+      "class_counts_by_id": {
+        "0": 26,
+        "1": 44,
+        "2": 30,
+        "3": 38,
+        "4": 108,
+        "5": 94,
+        "6": 116
+      },
+      "class_counts_by_name": {
+        "Artilary": 26,
+        "Missile": 44,
+        "Radar": 30,
+        "M. Rocket Launcher": 38,
+        "Soldier": 108,
+        "Tank": 94,
+        "Vehicle": 116
+      }
+    },
+    "test": {
+      "image_count": 170,
+      "label_count": 170,
+      "missing_pairings": 0,
+      "total_objects": 419,
+      "class_counts_by_id": {
+        "0": 40,
+        "1": 36,
+        "2": 34,
+        "3": 45,
+        "4": 120,
+        "5": 58,
+        "6": 86
+      },
+      "class_counts_by_name": {
+        "Artilary": 40,
+        "Missile": 36,
+        "Radar": 34,
+        "M. Rocket Launcher": 45,
+        "Soldier": 120,
+        "Tank": 58,
+        "Vehicle": 86
+      }
+    }
+  },
+  "integrity_check": {
+    "remaining_cross_split_duplicates": 0,
+    "remaining_within_split_duplicates": 0
+  },
+  "annotation_discrepancy_report": [
+    {
+      "hash": "f8fad9bd5be16fda14308b9ef6703804",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_244.jpeg",
+          "classes": [
+            5,
+            6,
+            4,
+            5,
+            5
+          ],
+          "box_count": 5
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_880.jpeg",
+          "classes": [
+            4,
+            5,
+            6,
+            5,
+            5
+          ],
+          "box_count": 5
+        }
+      ]
+    },
+    {
+      "hash": "0a8efcc89a96cdda81deb0d6d982ad92",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_679.jpeg",
+          "classes": [
+            4,
+            5,
+            4,
+            4
+          ],
+          "box_count": 4
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_417.jpeg",
+          "classes": [
+            5,
+            4,
+            4,
+            4
+          ],
+          "box_count": 4
+        }
+      ]
+    },
+    {
+      "hash": "4094977534da2c79f1a5fe20a2c6eeed",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_566.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 9
+        },
+        {
+          "split": "test",
+          "image_name": "image_s3r2_kiit_281.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 10
+        }
+      ]
+    },
+    {
+      "hash": "1ef50d4d915f5fc94d3a6d221a6abae7",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1570.jpeg",
+          "classes": [
+            3
+          ],
+          "box_count": 1
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1521.jpeg",
+          "classes": [
+            3
+          ],
+          "box_count": 1
+        }
+      ]
+    },
+    {
+      "hash": "cdc3742186e148db8dba00906d7b2295",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_730.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            4,
+            6,
+            4,
+            6,
+            6
+          ],
+          "box_count": 8
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_227.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 7
+        }
+      ]
+    },
+    {
+      "hash": "bc4ec3ee3f363c54219aa3cdae439b10",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_425.jpeg",
+          "classes": [
+            4,
+            6,
+            4,
+            4,
+            6,
+            6,
+            4,
+            6,
+            6
+          ],
+          "box_count": 9
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_578.jpeg",
+          "classes": [
+            4,
+            4,
+            4,
+            6,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            6,
+            6
+          ],
+          "box_count": 13
+        }
+      ]
+    },
+    {
+      "hash": "e317b024d66775bc621e9e71f3485601",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1487.jpeg",
+          "classes": [
+            5
+          ],
+          "box_count": 1
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1158.jpeg",
+          "classes": [
+            5
+          ],
+          "box_count": 1
+        }
+      ]
+    },
+    {
+      "hash": "650e0414b470db81355ac5fb1972a243",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1151.jpeg",
+          "classes": [
+            3,
+            3,
+            3,
+            4,
+            3
+          ],
+          "box_count": 5
+        },
+        {
+          "split": "test",
+          "image_name": "image_s3r2_kiit_60.jpeg",
+          "classes": [
+            3,
+            3,
+            4,
+            3,
+            3
+          ],
+          "box_count": 5
+        }
+      ]
+    },
+    {
+      "hash": "16a24bd0d4be00319984beb552b59393",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1239.jpeg",
+          "classes": [
+            0,
+            0,
+            0
+          ],
+          "box_count": 3
+        },
+        {
+          "split": "test",
+          "image_name": "image_s3r2_kiit_464.jpeg",
+          "classes": [
+            0,
+            0,
+            0
+          ],
+          "box_count": 3
+        }
+      ]
+    },
+    {
+      "hash": "e158720c2c5f943ba8395f393b4a609e",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_280.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            5,
+            6,
+            5
+          ],
+          "box_count": 6
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_774.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            5,
+            6
+          ],
+          "box_count": 6
+        }
+      ]
+    },
+    {
+      "hash": "03a82276bc1fc890b992572eb9c3fb76",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_428.jpeg",
+          "classes": [
+            4,
+            4,
+            4,
+            0
+          ],
+          "box_count": 4
+        },
+        {
+          "split": "valid",
+          "image_name": "image_s3r2_kiit_1079.jpeg",
+          "classes": [
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            0
+          ],
+          "box_count": 7
+        }
+      ]
+    },
+    {
+      "hash": "8a44938f109e2a8b76cd821391c2477d",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_153.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 5
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_142.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 6
+        }
+      ]
+    },
+    {
+      "hash": "81f8f53a650b63945cd4c06b8a104cc2",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_191.jpeg",
+          "classes": [
+            5,
+            5,
+            5
+          ],
+          "box_count": 3
+        },
+        {
+          "split": "valid",
+          "image_name": "image_s3r2_kiit_975.jpeg",
+          "classes": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "box_count": 4
+        }
+      ]
+    },
+    {
+      "hash": "54243b9d9d6d69590ef015db43ee7aa6",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1484.jpeg",
+          "classes": [
+            5,
+            5,
+            5
+          ],
+          "box_count": 3
+        },
+        {
+          "split": "valid",
+          "image_name": "image_s3r2_kiit_1038.jpeg",
+          "classes": [
+            4,
+            4,
+            5,
+            4,
+            4,
+            5,
+            4,
+            4,
+            4,
+            6,
+            5
+          ],
+          "box_count": 11
+        }
+      ]
+    },
+    {
+      "hash": "6f8edbaa97326228a65bbe00fc4f30b5",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1164.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 4
+        },
+        {
+          "split": "valid",
+          "image_name": "image_s3r2_kiit_914.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 4
+        }
+      ]
+    },
+    {
+      "hash": "06304fe6ffe0750854d80880be1bbf91",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_563.jpeg",
+          "classes": [
+            5,
+            5,
+            5,
+            5
+          ],
+          "box_count": 4
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1011.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 4
+        }
+      ]
+    },
+    {
+      "hash": "b7766bbe2dbc2a2a5dd757c1ff40eefb",
+      "file_count": 2,
+      "has_discrepancy": false,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_15.jpeg",
+          "classes": [
+            3
+          ],
+          "box_count": 1
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_285.jpeg",
+          "classes": [
+            3
+          ],
+          "box_count": 1
+        }
+      ]
+    },
+    {
+      "hash": "c2a81cfb61236a628af807ff0940fa57",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_1051.jpeg",
+          "classes": [
+            6,
+            6,
+            6,
+            0,
+            6,
+            6,
+            0,
+            6,
+            0,
+            6
+          ],
+          "box_count": 10
+        },
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_52.jpeg",
+          "classes": [
+            0,
+            6,
+            0,
+            0,
+            6,
+            6,
+            6,
+            6
+          ],
+          "box_count": 8
+        }
+      ]
+    },
+    {
+      "hash": "4da5bb5ea06424e440234c677a595cd8",
+      "file_count": 2,
+      "has_discrepancy": true,
+      "files": [
+        {
+          "split": "train",
+          "image_name": "image_s3r2_kiit_972.jpeg",
+          "classes": [
+            4,
+            4,
+            4,
+            4,
+            6,
+            4,
+            4,
+            6
+          ],
+          "box_count": 8
+        },
+        {
+          "split": "test",
+          "image_name": "image_s3r2_kiit_813.jpeg",
+          "classes": [
+            4,
+            6,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            4,
+            6,
+            4
+          ],
+          "box_count": 12
+        }
+      ]
+    }
+  ],
+  "original_val_evaluation": {
+    "overall": {
+      "precision": 0.6957,
+      "recall": 0.6428,
+      "map50": 0.6004,
+      "map50_95": 0.3849,
+      "total_ground_truth": 534,
+      "total_true_positives": 302,
+      "total_false_negatives": 172,
+      "total_false_positives": 94,
+      "total_wrong_class": 60
+    },
+    "per_class": {
+      "Artilary": {
+        "class_id": 0,
+        "ground_truth_objects": 27,
+        "true_positives": 21,
+        "false_negatives": 3,
+        "wrong_class": 3,
+        "false_positives": 5,
+        "precision": 0.8387,
+        "recall": 0.7308,
+        "map50": 0.7168,
+        "map50_95": 0.3918
+      },
+      "Missile": {
+        "class_id": 1,
+        "ground_truth_objects": 49,
+        "true_positives": 26,
+        "false_negatives": 13,
+        "wrong_class": 10,
+        "false_positives": 8,
+        "precision": 0.694,
+        "recall": 0.6364,
+        "map50": 0.5652,
+        "map50_95": 0.3878
+      },
+      "Radar": {
+        "class_id": 2,
+        "ground_truth_objects": 35,
+        "true_positives": 19,
+        "false_negatives": 13,
+        "wrong_class": 3,
+        "false_positives": 8,
+        "precision": 0.5587,
+        "recall": 0.5489,
+        "map50": 0.4731,
+        "map50_95": 0.2114
+      },
+      "M. Rocket Launcher": {
+        "class_id": 3,
+        "ground_truth_objects": 41,
+        "true_positives": 23,
+        "false_negatives": 8,
+        "wrong_class": 10,
+        "false_positives": 5,
+        "precision": 0.7232,
+        "recall": 0.6316,
+        "map50": 0.5927,
+        "map50_95": 0.4973
+      },
+      "Soldier": {
+        "class_id": 4,
+        "ground_truth_objects": 136,
+        "true_positives": 67,
+        "false_negatives": 69,
+        "wrong_class": 0,
+        "false_positives": 38,
+        "precision": 0.5883,
+        "recall": 0.5556,
+        "map50": 0.4975,
+        "map50_95": 0.2836
+      },
+      "Tank": {
+        "class_id": 5,
+        "ground_truth_objects": 129,
+        "true_positives": 76,
+        "false_negatives": 32,
+        "wrong_class": 21,
+        "false_positives": 10,
+        "precision": 0.7143,
+        "recall": 0.8191,
+        "map50": 0.75,
+        "map50_95": 0.5055
+      },
+      "Vehicle": {
+        "class_id": 6,
+        "ground_truth_objects": 117,
+        "true_positives": 70,
+        "false_negatives": 34,
+        "wrong_class": 13,
+        "false_positives": 20,
+        "precision": 0.7528,
+        "recall": 0.5776,
+        "map50": 0.6075,
+        "map50_95": 0.4166
+      }
+    }
+  },
+  "original_test_evaluation": {
+    "overall": {
+      "precision": 0.6681,
+      "recall": 0.6521,
+      "map50": 0.6153,
+      "map50_95": 0.4105,
+      "total_ground_truth": 523,
+      "total_true_positives": 298,
+      "total_false_negatives": 183,
+      "total_false_positives": 79,
+      "total_wrong_class": 42
+    },
+    "per_class": {
+      "Artilary": {
+        "class_id": 0,
+        "ground_truth_objects": 38,
+        "true_positives": 27,
+        "false_negatives": 10,
+        "wrong_class": 1,
+        "false_positives": 12,
+        "precision": 0.764,
+        "recall": 0.6476,
+        "map50": 0.5908,
+        "map50_95": 0.3134
+      },
+      "Missile": {
+        "class_id": 1,
+        "ground_truth_objects": 39,
+        "true_positives": 18,
+        "false_negatives": 13,
+        "wrong_class": 8,
+        "false_positives": 10,
+        "precision": 0.6316,
+        "recall": 0.5,
+        "map50": 0.5217,
+        "map50_95": 0.3904
+      },
+      "Radar": {
+        "class_id": 2,
+        "ground_truth_objects": 39,
+        "true_positives": 20,
+        "false_negatives": 12,
+        "wrong_class": 7,
+        "false_positives": 11,
+        "precision": 0.5651,
+        "recall": 0.4706,
+        "map50": 0.3556,
+        "map50_95": 0.2323
+      },
+      "M. Rocket Launcher": {
+        "class_id": 3,
+        "ground_truth_objects": 56,
+        "true_positives": 35,
+        "false_negatives": 13,
+        "wrong_class": 8,
+        "false_positives": 4,
+        "precision": 0.7286,
+        "recall": 0.8222,
+        "map50": 0.8058,
+        "map50_95": 0.6485
+      },
+      "Soldier": {
+        "class_id": 4,
+        "ground_truth_objects": 174,
+        "true_positives": 94,
+        "false_negatives": 80,
+        "wrong_class": 0,
+        "false_positives": 26,
+        "precision": 0.593,
+        "recall": 0.6833,
+        "map50": 0.6076,
+        "map50_95": 0.306
+      },
+      "Tank": {
+        "class_id": 5,
+        "ground_truth_objects": 83,
+        "true_positives": 46,
+        "false_negatives": 22,
+        "wrong_class": 15,
+        "false_positives": 8,
+        "precision": 0.631,
+        "recall": 0.7665,
+        "map50": 0.7416,
+        "map50_95": 0.4911
+      },
+      "Vehicle": {
+        "class_id": 6,
+        "ground_truth_objects": 94,
+        "true_positives": 58,
+        "false_negatives": 33,
+        "wrong_class": 3,
+        "false_positives": 8,
+        "precision": 0.7632,
+        "recall": 0.6746,
+        "map50": 0.6838,
+        "map50_95": 0.4921
+      }
+    }
+  }
+}

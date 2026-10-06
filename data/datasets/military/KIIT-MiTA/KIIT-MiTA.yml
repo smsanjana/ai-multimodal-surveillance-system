@@ -1,0 +1,12 @@
+path: /Users/sanjana/Documents/ai_p2/data/datasets/military/KIIT-MiTA
+train: train/images
+val: valid/images
+test: test/images
+names:
+  0: Artilary
+  1: Missile
+  2: Radar
+  3: M. Rocket Launcher
+  4: Soldier
+  5: Tank
+  6: Vehicle
