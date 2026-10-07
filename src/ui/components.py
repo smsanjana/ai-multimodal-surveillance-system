@@ -1,6 +1,6 @@
 """Reusable UI Components for the Surveillance Intelligence Workstation."""
 
-from typing import Optional, List, Dict, Any
+from typing import Optional, List, Dict, Any, Tuple
 import streamlit as st
 import plotly.express as px
 import plotly.graph_objects as go
@@ -147,3 +147,51 @@ def render_threat_distribution_chart(records: Optional[List[Any]] = None) -> go.
         height=280
     )
     return fig
+
+
+def normalize_canvas_polygon(
+    pixel_vertices: List[Tuple[float, float]],
+    canvas_w: float,
+    canvas_h: float
+) -> List[Tuple[float, float]]:
+    """
+    Converts pixel coordinates (X, Y) from a canvas of size (canvas_w x canvas_h)
+    into normalized [0.0, 1.0] scale relative to actual rendered canvas bounds.
+    Clamps values between 0.0 and 1.0.
+    """
+    if not pixel_vertices or canvas_w <= 0.0 or canvas_h <= 0.0:
+        return []
+
+    normalized_pts = []
+    for px, py in pixel_vertices:
+        nx = max(0.0, min(1.0, float(px) / float(canvas_w)))
+        ny = max(0.0, min(1.0, float(py) / float(canvas_h)))
+        normalized_pts.append((round(nx, 4), round(ny, 4)))
+    return normalized_pts
+
+
+def create_custom_restricted_zone(
+    normalized_points: List[Tuple[float, float]],
+    platform: str = "DRONE",
+    zone_id: Optional[str] = None,
+    name: Optional[str] = None
+) -> Optional[Any]:
+    """
+    Constructs a RestrictedZone domain entity if at least 3 valid vertices are provided.
+    Returns None if fewer than 3 vertices are provided.
+    """
+    from src.domain.entities import RestrictedZone
+    if not normalized_points or len(normalized_points) < 3:
+        return None
+
+    plat = platform.upper()
+    zid = zone_id or f"Z_CUSTOM_{plat}"
+    zname = name or f"Custom Analyst Polygon ({plat})"
+
+    return RestrictedZone(
+        zone_id=zid,
+        name=zname,
+        platform=plat,
+        polygon_points=normalized_points,
+        is_active=True
+    )

@@ -105,6 +105,116 @@ def render_workspace_page() -> None:
             if uploaded_file:
                 st.caption(f"Loaded File: **{uploaded_file.name}** ({uploaded_file.size} bytes)")
 
+    # --- Phase 2: Interactive Restricted Zone Polygon Drawer ---
+    st.markdown("---")
+    with st.expander("✏️ Interactive Restricted Zone Polygon Drawer (Optional Custom Bounds)", expanded=False):
+        st.caption("Draw 3 or more vertices on the surveillance backdrop below to define a custom spatial restricted zone.")
+        
+        # Extract background preview frame for canvas
+        bg_pil = None
+        orig_w, orig_h = 1280, 720
+
+        try:
+            import cv2
+            from PIL import Image
+            import io
+
+            if media_type == "IMAGE":
+                if source_mode == "Built-in Demo Scenario" and selected_scenario_name:
+                    img_bytes = demo_manager.load_demo_image_bytes(selected_scenario_name)
+                    bg_pil = Image.open(io.BytesIO(img_bytes)).convert("RGB")
+                elif uploaded_file:
+                    bg_pil = Image.open(io.BytesIO(uploaded_file.getvalue())).convert("RGB")
+            else:  # VIDEO
+                vpath = None
+                if source_mode == "Built-in Demo Scenario" and selected_scenario_name:
+                    scen = demo_manager.get_video_scenario(selected_scenario_name) or demo_manager.get_scenario(selected_scenario_name)
+                    if scen and "file_path" in scen:
+                        vpath = scen["file_path"]
+                elif uploaded_file:
+                    import tempfile
+                    tf = tempfile.NamedTemporaryFile(delete=False, suffix=".mp4")
+                    tf.write(uploaded_file.getvalue())
+                    tf.close()
+                    vpath = tf.name
+
+                if vpath and os.path.exists(vpath):
+                    cap = cv2.VideoCapture(vpath)
+                    ret, frame = cap.read()
+                    cap.release()
+                    if ret:
+                        bg_pil = Image.fromarray(cv2.cvtColor(frame, cv2.COLOR_BGR2RGB))
+        except Exception as ex:
+            logger.warning("Could not extract canvas backdrop preview frame: %s", ex)
+
+        # Fallback background image if extraction fails
+        if bg_pil is None:
+            from PIL import Image
+            bg_pil = Image.new("RGB", (1280, 720), color=(30, 35, 45))
+
+        orig_w, orig_h = bg_pil.size
+        canvas_w = 640
+        canvas_h = max(200, int(round(canvas_w * (orig_h / float(orig_w)))))
+        resized_bg = bg_pil.resize((canvas_w, canvas_h))
+
+        try:
+            from streamlit_drawable_canvas import st_canvas
+            from src.ui.components import normalize_canvas_polygon, create_custom_restricted_zone
+            from src.domain.entities import RestrictedZone
+
+            st.caption(f"Canvas Scale: Rendered **{canvas_w}x{canvas_h}px** (Source Aspect: **{orig_w}x{orig_h}px**)")
+            
+            canvas_result = st_canvas(
+                fill_color="rgba(239, 68, 68, 0.25)",
+                stroke_width=2,
+                stroke_color="#EF4444",
+                background_image=resized_bg,
+                update_streamlit=True,
+                height=canvas_h,
+                width=canvas_w,
+                drawing_mode="polygon",
+                key="ws_zone_canvas",
+            )
+
+            raw_points = []
+            if canvas_result and canvas_result.json_data and "objects" in canvas_result.json_data:
+                for obj in canvas_result.json_data["objects"]:
+                    if obj.get("type") in ["path", "polygon"]:
+                        path_data = obj.get("path", [])
+                        for p in path_data:
+                            if isinstance(p, list) and len(p) >= 3 and p[0] in ["M", "L"]:
+                                raw_points.append((float(p[1]), float(p[2])))
+                        if not raw_points and "points" in obj:
+                            for pt in obj["points"]:
+                                raw_points.append((float(pt["x"]), float(pt["y"])))
+
+            col_z1, col_z2 = st.columns([3, 1])
+            with col_z2:
+                if st.button("🗑️ Clear Custom Zone", key="ws_clear_zone_btn"):
+                    st.session_state["custom_zone_points"] = None
+                    st.session_state["custom_zone_active"] = False
+                    st.rerun()
+
+            with col_z1:
+                if raw_points:
+                    norm_pts = normalize_canvas_polygon(raw_points, canvas_w, canvas_h)
+                    if len(norm_pts) >= 3:
+                        st.session_state["custom_zone_points"] = norm_pts
+                        st.session_state["custom_zone_active"] = True
+                        st.success(f"✅ Custom Zone Defined: {len(norm_pts)} vertices normalized to [0.0, 1.0]")
+                    else:
+                        st.warning(f"⚠️ Polygon requires at least 3 vertices (detected {len(norm_pts)} points). Using platform fallback zone.")
+                        st.session_state["custom_zone_points"] = None
+                        st.session_state["custom_zone_active"] = False
+                elif st.session_state.get("custom_zone_points"):
+                    pts = st.session_state["custom_zone_points"]
+                    st.info(f"ℹ️ Active Custom Zone: {len(pts)} normalized vertices stored in session.")
+                else:
+                    st.caption("No custom polygon drawn. Standard platform fallback zone will be evaluated.")
+
+        except ImportError:
+            st.info("ℹ️ Interactive drawing canvas package `streamlit-drawable-canvas` is not active. Using standard platform zone fallback.")
+
     # Clear stale results if selection changed
     current_selection_key = f"{source_mode}_{platform_choice}_{selected_scenario_name}_{getattr(uploaded_file, 'name', 'none')}"
     last_selection_key = st.session_state.get("last_workspace_selection_key")
@@ -126,6 +236,17 @@ def render_workspace_page() -> None:
         st.session_state["is_analyzing"] = True
         st.session_state["active_analysis_response"] = None
         st.session_state["analysis_error"] = None
+
+        # Build custom RestrictedZone if present in session state
+        custom_zones = None
+        if st.session_state.get("custom_zone_points"):
+            from src.ui.components import create_custom_restricted_zone
+            user_zone = create_custom_restricted_zone(
+                st.session_state["custom_zone_points"],
+                platform=platform_choice.upper()
+            )
+            if user_zone:
+                custom_zones = [user_zone]
 
         with st.spinner(f"Executing computer vision detection & threat evaluation on {media_type}..."):
             try:
@@ -158,7 +279,8 @@ def render_workspace_page() -> None:
                         scenario_name=selected_scenario_name,
                         video_path=temp_path,
                         zone_violation_flag=upload_zone_flag,
-                        unauthorized_access_signal=upload_unauth_signal
+                        unauthorized_access_signal=upload_unauth_signal,
+                        zones=custom_zones
                     )
                     resp = video_service.process_video(req)
                     st.session_state["active_analysis_response"] = resp
